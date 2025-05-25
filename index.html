@@ -4,6 +4,7 @@
     <title> CHURCH OF SKUNK </title>
   </head>
   <body>
-    <p> Praise be to Skunk! </p>
+    <h1> <strong> CHURCH OF SKUNK </strong> </h1>
+    <h2> Praise be to Skunk! </h2>
   </body>
 </html>
