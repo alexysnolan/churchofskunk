@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
   <head>
-    <title><strong> CHURCH OF SKUNK </strong></title>
+    <title> CHURCH OF SKUNK </title>
   </head>
   <body>
     <p> Praise be to Skunk! </p>
