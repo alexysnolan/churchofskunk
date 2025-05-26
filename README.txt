@@ -7,6 +7,7 @@
       background-color: #DCDCDC;
       }
     </style>
+    <link rel='styles' href='styles.css'>
   </head>
   <body>
     <h1> <strong> CHURCH OF SKUNK </strong> </h1>
