@@ -5,6 +5,12 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+hr {
+    height: 6px;
+    color: #000000;
+    background-color: #000000;
+}
+
 h1 {
     text-align: center;  
     color: white;
