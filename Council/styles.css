@@ -1,0 +1,46 @@
+body {
+
+
+    background-color: #DCDCDC;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+hr {
+    height: 6px;
+    color: #000000;
+    background-color: #000000;
+}
+
+h1 {
+    text-align: center;  
+    color: white;
+    -webkit-text-stroke: 0px #6D6968;
+    text-shadow: 4px 2px 2px #757575;
+    letter-spacing: 8px;
+    background-color: #000000;
+    padding: 20px;
+}
+
+h2 {
+    text-align: center;  
+
+}
+
+
+p {
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+
+}
+
+h3 {
+    text-align: center;  
+
+}
+
+p {
+    text-align: center;  
+
+}
