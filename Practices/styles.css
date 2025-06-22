@@ -110,6 +110,7 @@ body {margin:0;font-family:Garamond, serif;}
     margin: auto;
     height: 100%;
     border: red;
+    background-color: #DCDCDC;
 }
 
 hr {
@@ -133,11 +134,6 @@ h2 {
 
 }
 
-
-p {
-    margin-left: 300px;
-    margin-right: 300px;
-}
 
 
 }
