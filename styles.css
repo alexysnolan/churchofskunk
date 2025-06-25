@@ -1,5 +1,17 @@
 
-body {margin:0;font-family:Garamond, serif;}
+body {margin:0;font-family:Garamond, serif; font-size: 2.4vw}
+
+a.button {
+  padding: 10px 35px;
+  border: 0px outset buttonborder;
+  border-radius: 10px;
+  color: #000000;
+  background-color: #D3D3D3;
+  text-align: center;
+  text-decoration: none;
+  font-family: Helvetica, serif; font-size: 1.5vw;
+  cursor: pointer;
+}
 
 .topnav {
   overflow: hidden;
@@ -141,4 +153,15 @@ h1 {
     letter-spacing: 8px;
     background-color: ;
     padding: 30px;
+}
+
+
+
+.footer {
+    bottom: 0;
+    width: 100%;
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    font-size: 1rem;
 }
