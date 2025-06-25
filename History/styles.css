@@ -1,14 +1,14 @@
 body {margin:0;font-family:Garamond, serif; font-size: 2.4vw;}
 
 a.button {
-  padding: 25px 25px;
-  border: 3px outset buttonborder;
-  border-radius: 10px;
-  color: #FFFFFF;
-  background-color: #DC143C;
+  padding: 5px 15px;
+  border: 0px outset buttonborder;
+  border-radius: 1px;
+  color: #000000;
+  background-color: #D3D3D3;
   text-align: center;
   text-decoration: none;
-  font-family: Helvetica, serif; font-size: 2vw;
+  font-family: Helvetica, serif; font-size: 1.5vw;
   cursor: pointer;
 }
 
@@ -125,9 +125,6 @@ a.button {
     background-color: #DCDCDC;
 }
 
-
-
-
 hr {
     height: 6px;
     color: #000000;
@@ -136,12 +133,10 @@ hr {
 
 h1 {
     text-align: center;  
-    font-family:Garamond, serif;
     color: white;
     -webkit-text-stroke: 0px #6D6968;
     text-shadow: 4px 2px 2px #757575;
     letter-spacing: 8px;
-    line-height: 100%;
     background-color: #000000;
     padding: 20px;
 }
@@ -151,22 +146,24 @@ h2 {
 
 }
 
+}
+
 h3 {
     text-align: center;  
 
 }
 
-
 p {
     text-align: center;  
+    padding: 20px;
 
 }
 
-.footer{
-    width: 100%
+.footer {
+    bottom: 0;
+    width: 100%;
     background-color: #000000;
     color: white;
     text-align: center;
+    font-size: 1rem;
 }
-
-
