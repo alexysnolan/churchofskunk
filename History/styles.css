@@ -116,11 +116,6 @@ a.button {
 }
 
 
-img {
-    margin: auto;
-}
-
-
 .container {
     width: 92%;
     margin: auto;
@@ -165,14 +160,13 @@ p {
 
 .column {
   float: left;
-  width: 32%;
+  width: 30%;
   padding: 10px;
 }
 
 
 .column img {
   margin-top: 10px;
-  vertical-align: middle;
 }
 
 
