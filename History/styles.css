@@ -159,24 +159,22 @@ p {
 
 }
 
-.row {
-     display: flex;
-     flex-wrap: wrap;
-     padding: 0 4px;
-
-}
-
 .column {
-     flex: 30%;
-     padding 0 4px;
-
+  float: left;
+  width: 30%;
+  padding: 10px;
 }
 
 
 .column img {
-     margin-top: 8px;
-     vertical align: middle;
+  margin-top: 20px;
+}
 
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
 
