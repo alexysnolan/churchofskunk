@@ -160,14 +160,14 @@ p {
 }
 
 .column {
-  float: left;
+  float: center;
   width: 30%;
   padding: 10px;
 }
 
 
 .column img {
-  margin-top: 20px;
+  margin-top: 10px;
 }
 
 
