@@ -158,6 +158,11 @@ p {
 
 }
 
+p.footer {
+    text-align: center;
+}
+
+
 .column {
   float: left;
   width: 30%;
