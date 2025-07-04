@@ -161,6 +161,22 @@ p {
 }
 
 
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  background-color: #DCDCDC;
+  padding: 20px;
+}
+.grid-container > div {
+  background-color: #f1f1f1;
+  color: #000;
+  padding: 40px;
+  font-size: 30px;
+  text-align: center;
+}
+
+
 .footer {
     bottom: 0;
     width: 100%;
