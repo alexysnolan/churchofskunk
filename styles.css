@@ -13,6 +13,22 @@ a.button {
   cursor: pointer;
 }
 
+
+.button2 {
+  padding: 1rem 1rem;
+  border: 3px outset buttonborder;
+  border-radius: 5px;
+  color: #FFFFFF;
+  background-color: #000000;
+  text-align: center;
+  text-decoration: none;
+  font-family: Helvetica, serif; font-size: 1rem;
+  cursor: pointer;
+}
+
+
+
+
 .topnav {
   overflow: hidden;
   background-color: #000000;
