@@ -165,6 +165,12 @@ p {
 
 }
 
+#p2 {
+    font-family: papyrus, fantasy;
+    text-align: center; 
+
+}
+
 
 .footer {
     bottom: 0;
