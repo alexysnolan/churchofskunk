@@ -1,0 +1,47 @@
+Selected poems and Art
+
+<div class="container">
+  <br>
+  <h2> Selected Poems and Art</h2>
+      <p> <em> by Google Gemini </em></p>
+
+     <p>
+      <img src="lovingskunk.png"
+       alt="loving skunk painting"
+       width="420" height="420">
+      </p>
+      <p><em>Loving Skunk</em></p>
+    <br>
+
+
+   <h3> Unnamed prayer </h3>
+      <p>Oh, Blessed Stink-Bearer, hear our plea!</p>
+      <p>From the depths of the earth, where roots entwine,</p>
+      <p>To the moonlit meadows, where shadows recline, </p>
+      <p>We honor your essence, potent and divine.</p>
+    <br>
+   <h3> Ode to the Striped Protector </h3>
+      <p>We seek your fragrant wisdom, your pungent grace,</p>
+      <p>To ward off ill-fortune, to clear troubled space.</p>
+      <p>May your sacred spray shield us from all harm,</p>
+      <p>A potent anointing, a protective charm.</p>
+    <br>
+   <h3> A Humble Request</h3>
+      <p>Grant us discernment, to know when to stand tall,</p>
+      <p>And when to retreat, before we might fall.</p>
+      <p>May our boundaries be clear, our intentions sincere,</p>
+      <p>As unmistakable as the message you bear.</p>
+    <br>
+   <h3> Guidance and Gratitude </h3>
+      <p>Teach us resilience, to thrive in the night,</p>
+      <p>To embrace our true nature, with all of our might.</p>
+      <p>For your unique power, we offer our praise,</p>
+      <p>Through the moon-dappled nights and the sun-drenched days.</p>
+    <br>
+   <h3> Blessings of the Skunk Deity </h3>
+      <p>May your essence infuse us, a spiritual art,</p>
+      <p>Protecting our spirits, and guarding our heart.</p>
+      <p>Hail, Holy Skunk, we honor your might,</p>
+      <p>Guide us and guard us, with all of your light.</p>
+      <br>
+</div> 

@@ -1,10 +1,9 @@
-
-body {margin:0;font-family:Garamond, serif; font-size: 2.4vw}
+body {margin:0;font-family:Garamond, serif; font-size: 2.4vw;}
 
 a.button {
-  padding: 10px 35px;
+  padding: 5px 15px;
   border: 0px outset buttonborder;
-  border-radius: 10px;
+  border-radius: 1px;
   color: #000000;
   background-color: #D3D3D3;
   text-align: center;
@@ -12,22 +11,6 @@ a.button {
   font-family: Helvetica, serif; font-size: 1.5vw;
   cursor: pointer;
 }
-
-
-.button2 {
-  padding: 1rem 1rem;
-  border: 3px outset buttonborder;
-  border-radius: 5px;
-  color: #FFFFFF;
-  background-color: #000000;
-  text-align: center;
-  text-decoration: none;
-  font-family: Helvetica, serif; font-size: 1.2 rem;
-  cursor: pointer;
-}
-
-
-
 
 .topnav {
   overflow: hidden;
@@ -134,28 +117,14 @@ a.button {
 
 
 
-body {
-      margin: 0;
-      text-align: center;
-}
-
 .container {
     width: 92%;
     margin: auto;
     height: 100%;
-    border: 2px red;
+    border: red;
+    text-align: center;
+    background-color: #DCDCDC;
 }
-
-.container2 {
-    width: 92%;
-    margin: auto;
-    height: 100%;
-    display: inline;
-}
-
-header {
-    background-color: white;
-    color: black; 
 
 hr {
     height: 6px;
@@ -165,13 +134,29 @@ hr {
 
 h1 {
     text-align: center;  
-    font-size: 5rem;
-    color: black;
+    color: white;
     -webkit-text-stroke: 0px #6D6968;
     text-shadow: 4px 2px 2px #757575;
     letter-spacing: 8px;
-    background-color: ;
-    padding: 30px;
+    background-color: #000000;
+    padding: 20px;
+}
+
+h2 {
+    text-align: center;  
+
+}
+
+}
+
+h3 {
+    text-align: center;  
+
+}
+
+p {
+    text-align: center;  
+
 }
 
 
