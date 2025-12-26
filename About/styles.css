@@ -40,7 +40,7 @@ a.button {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 26px;
 }
 
 .active {
@@ -58,7 +58,7 @@ a.button {
 }
 
 .dropdown .dropbtn {
-  font-size: 17px;    
+  font-size: 26px;    
   border: none;
   outline: none;
   color: white;

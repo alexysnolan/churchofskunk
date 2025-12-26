@@ -32,7 +32,7 @@ a.button {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 26px;
 }
 
 .active {
@@ -50,7 +50,7 @@ a.button {
 }
 
 .dropdown .dropbtn {
-  font-size: 17px;    
+  font-size: 26px;    
   border: none;
   outline: none;
   color: white;
@@ -164,6 +164,31 @@ p {
     text-align: center;  
 
 }
+
+
+#p2 {
+    text-align: left; 
+
+}
+
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+  background-color: #DCDCDC;
+  padding: 20px;
+}
+
+.grid-container > div {
+  background-color: #f1f1f1;
+  color: #000;
+  padding: 20px;
+  font-size: 26px;
+  text-align: left;
+}
+
+
 
 
 .footer {
