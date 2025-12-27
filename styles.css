@@ -23,10 +23,25 @@ a.button {
   text-align: center;
   text-decoration: none;
   font-family: Helvetica, serif; font-size: 1.2 rem;
+  font-weight: bold;
   cursor: pointer;
+  font-size: 28px;
 }
 
-
+.button3 {
+  padding: 1rem 1rem;
+  border: 10px outset buttonborder;
+  border-radius: 5px;
+  border-color: #B8860B;
+  color: #B8860B;
+  background-color: #87CEFA;
+  text-align: center;
+  text-decoration: none;
+  font-family: Helvetica, serif; font-size: 1.2 rem;
+  cursor: pointer;
+  margin-bottom: 20px;
+  font-size: 30px;
+}
 
 
 .topnav {
@@ -151,6 +166,19 @@ body {
     margin: auto;
     height: 100%;
     display: inline;
+}
+
+.container3 {
+    width: 50%;
+    margin: auto;
+    margin-top: 50px;
+    height: 100%;
+    text-align: center;
+    color: #B8860B;
+    text-shadow: 2px 0px 0px #FFFFFF;
+    font-weight: bold;
+    font-family: Helvetica, serif; font-size: 1.2 rem;
+
 }
 
 header {
