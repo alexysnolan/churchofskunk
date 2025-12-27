@@ -35,7 +35,7 @@ a.button {
   border-color: #B8860B;
   color: #FFFFFF;
   letter-spacing: 1.4px;
-  background-color: #87CEFA;
+  background-color: #076cab;
   text-align: center;
   text-decoration: none;
   font-family: Helvetica, serif;
@@ -43,8 +43,7 @@ a.button {
   margin-bottom: 20px;
   font-size: 2.5rem;
   font-weight: bold;
-  -webkit-text-stroke-width: 1px; 
-  -webkit-text-stroke-color: #000000; 
+
 }
 
 
