@@ -47,14 +47,14 @@ a.button {
 }
 
 .button4 {
-  padding: 1rem 7rem;
+  padding: 1rem 5rem;
   border: 2px outset buttonborder;
   border-radius: 30px;
   background-color: #D3D3D3;
   text-align: center;
   text-decoration: none;
   font-family: Helvetica, serif; 
-  font-size: 32px;
+  font-size: 24px;
   font-weight: bold;
   color: #000000;
   cursor: pointer;
