@@ -161,10 +161,21 @@ p {
 }
 
 
+.intro {
+    text-align: center;
+    font-family: helvetica;
+    font-size: 30px;
+    color: #000000;
+    padding: 10px;
+    margin-left: 150px;
+    margin-right: 150px;
+
+    
+}
+
 
 .smokey {
     text-align: left;
-    font-family: helvetica;
     margin-left: 30px;
 
 }
