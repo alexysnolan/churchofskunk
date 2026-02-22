@@ -125,6 +125,18 @@ a.button {
     background-color: #DCDCDC;
 }
 
+
+.polytheism {
+    width: 98%;
+    margin: auto;
+    height: 100%;
+    border-color: #000000;
+    border-width: 10px;
+    border-style: double;
+    background-color: #F2F2F2;
+
+}
+
 hr {
     height: 6px;
     color: #000000;
@@ -166,9 +178,10 @@ p {
     font-family: helvetica;
     font-size: 30px;
     color: #000000;
-    padding: 10px;
     margin-left: 80px;
     margin-right: 80px;
+    letter-spacing: 1px;
+
 
     
 }
