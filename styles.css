@@ -62,7 +62,12 @@ a.button {
   margin-right: 3px;
 }
   
+.buttonPrayer {
+  margin: auto;
+  background-color: #FFFFFF;
+  border: 0px; 
 
+}
 
 .topnav {
   overflow: hidden;
