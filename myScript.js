@@ -35,10 +35,10 @@ function randomlist(list) {
 
 
 var PrayerFacts = [
-  "It is certain", "It is decidedly so", "Without a doubt", "Yes, definitely", "You may rely on it", "As I see it, yes", "Most likely", "Outlook good", "Yes", "Signs point to yes",
-"Reply hazy, try again", "Ask again later", "Better not to tell you now", "Concentrate and ask again", 
-  "Don't count on it", "No", "Nope", "Outlook not so good", "Very doubtful",
-"Only if you make a sacrifice at my altar", "You will have to ask Badb on this one"
+  "IT IS CERTAIN", "IT IS DECIDEDLY SO", "WITHOUT A DOUBT", "YES, DEFINITELY", "YOU MAY RELY ON IT", "AS I SEE IT, YES", "MOST LIKELY", "OUTLOOK GOOD", "YES", "SIGNS POINT TO YES",
+"REPLY HAZY, TRY AGAIN", "ASK AGAIN LATER", "BETTER NOT TO TELL YOU NOW", "CONCENTRATE AND ASK AGAIN", 
+  "DON'T COUNT ON IT", "NO", "FUCK NO", "OUTLOOK NOT SO GOOD", "VERY DOUBTFUL",
+"THIS WILL ONLY GO YOUR WAY IF YOU MAKE A SACRIFICE AT MY ALTAR", "YOU WILL HAVE TO ASK BADB ON THIS ONE"
 ];
 
 function generatePrayerFacts() {
