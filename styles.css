@@ -214,13 +214,13 @@ body {
     margin-top: 50px;
     height: 100%;
     text-align: center;
-    letter-spacing: 2px;
+    letter-spacing: 4px;
     color: #FFFFFF;
     text-shadow: 4px 6px 10px #B8860B;
     -webkit-text-stroke: 1px #000000;
     font-weight: bold;
     font-size: 3rem;
-
+    font-family: impact;
 }
 
 
