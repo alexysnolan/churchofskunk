@@ -217,7 +217,6 @@ body {
     letter-spacing: 4px;
     color: #000000;
     text-shadow: 10px 3px 20px #B8860B;
-    -webkit-text-stroke: 1px #FFFFFF;
     font-size: 3rem;
     font-family: impact;
 }
