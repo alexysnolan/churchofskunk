@@ -214,10 +214,11 @@ body {
     margin-top: -20px;
     height: 100%;
     text-align: center;
-    letter-spacing: 4px;
+    letter-spacing: 5px;
     color: #000000;
     text-shadow: 10px 3px 20px #B8860B;
-    font-size: 3rem;
+    font-weight: 700;
+    font-size: 4rem;
     font-family: impact;
 }
 
