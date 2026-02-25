@@ -258,13 +258,15 @@ h1 {
   font-size: 24px;
   color: #D3D3D3;
   padding: 0px 0px;
-  padding-top: 8px;
+  padding-top: 26px;
   padding-bottom: 8px;
   position: absolute;
+  margin-top: 10px;
   bottom: 8px;
   width: 100%;
   text-align: center;
-  background-color: transparent;
+  letter-spacing: 1px;
+
 }
 
 
