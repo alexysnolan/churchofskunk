@@ -215,10 +215,10 @@ body {
     height: 100%;
     text-align: center;
     letter-spacing: 4px;
-    color: #FFFFFF;
-    text-shadow: 4px 6px 10px #B8860B;
-    -webkit-text-stroke: 1px #000000;
-    font-weight: bold;
+    color: #000000;
+    text-shadow: 10px 3px 20px #B8860B;
+    -webkit-text-stroke: 1px #FFFFFF;
+
     font-size: 3rem;
     font-family: impact;
 }
