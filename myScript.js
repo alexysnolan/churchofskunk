@@ -54,5 +54,8 @@ function randomPrayerList(list) {
 
 
 
-
+function displayText() {
+  const outputDiv = document.getElementById("text-container");
+  outputDiv.textContent = "When you tap on skunk, skunk answers your prayers. You may not like the answer, but at least you will know your fate.";
+}
 

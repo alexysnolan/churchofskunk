@@ -231,6 +231,18 @@ body {
 }
 
 
+#text-container {
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 30px;
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: helvetica;
+    color: #990000;
+    
+}
+
+
 header {
     background-color: white;
     color: black; 
