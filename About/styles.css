@@ -32,7 +32,8 @@ a.button {
   background-color: #000000;
   text-align: center;
   text-decoration: none;
-  font-family: Helvetica, serif; font-size: 30px;
+  font-family: Helvetica, serif; 
+  font-size: 30px;
   cursor: pointer;
 }
 
@@ -218,7 +219,7 @@ p {
   border: none;
   text-align: left;
   outline: none;
-  font-size: 20px;
+  font-size: 30px;
 }
 
 .active, .collapsible:hover {
