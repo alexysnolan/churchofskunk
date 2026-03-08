@@ -1,6 +1,6 @@
-body {margin:0;font-family:Garamond, serif; font-size: 2.4vw;}
+body {margin:0;font-family:Garamond, serif; font-size: 2.4vw; width:100%;}
 
-a.button {
+.button {
   padding: 5px 15px;
   border: 0px outset buttonborder;
   border-radius: 1px;
@@ -11,6 +11,11 @@ a.button {
   font-family: Helvetica, serif; font-size: 1.5vw;
   cursor: pointer;
 }
+
+
+
+
+
 
 .topnav {
   overflow: hidden;
@@ -145,7 +150,7 @@ h2 {
 
 }
 
-}
+
 
 h3 {
     text-align: center;  
@@ -201,7 +206,7 @@ p.footer {
 
 .footer {
     bottom: 0;
-    width: 100%;
+    width: auto;
     background-color: #000000;
     color: white;
     text-align: center;
