@@ -20,7 +20,7 @@ async function loadQuotesFromFile("bushisms.txt") {
 
 async function showRandomQuote() {
   const quotes = await
-loadQuotesFromFile('bushisms.txt');
+loadQuotesFromFile("bushisms.txt");
   const randomQuote =
 quotes[Math.floor(Math.random() *
 quotes.length)];
