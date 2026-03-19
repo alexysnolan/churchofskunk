@@ -28,6 +28,7 @@ a.button {
 
 }
 
+
 .button3 {
   padding: 1rem 1rem;
   border: 10px outset buttonborder;
@@ -45,6 +46,8 @@ a.button {
   font-weight: bold;
 
 }
+
+
 
 .button4 {
   padding: 1rem 5rem;

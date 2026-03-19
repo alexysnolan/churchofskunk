@@ -147,7 +147,7 @@ h2 {
 
 }
 
-}
+
 
 h3 {
     text-align: center;  
@@ -158,6 +158,46 @@ p {
     text-align: center;  
 
 }
+
+
+
+
+
+.container3 {
+    width: 50%;
+    margin: auto;
+    margin-top: 50px;
+    height: 100%;
+    text-align: center;
+    color: #B8860B;
+    text-shadow: 2px 0px 0px #FFFFFF;
+    font-weight: bold;
+    font-family: Helvetica, serif; 
+    font-size: 3rem;
+
+}
+
+.button3 {
+  padding: 1rem 1rem;
+  border: 10px outset buttonborder;
+  border-radius: 5px;
+  border-color: #B8860B;
+  color: #FFFFFF;
+  letter-spacing: 1.4px;
+  background-color: #076cab;
+  text-align: center;
+  text-decoration: none;
+  font-family: Helvetica, serif;
+  cursor: pointer;
+  margin-bottom: 20px;
+  font-size: 2.5rem;
+  font-weight: bold;
+
+}
+
+
+
+
 
 
 
