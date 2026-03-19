@@ -9,7 +9,7 @@ function myFunction() {
 
 
 
-async function loadQuotesFromFile(bushisms) {
+async function loadQuotesFromFile("bushisms.txt") {
     const response = await fetch(bushisms.txt);
     const text = await response.text();
     return text 
