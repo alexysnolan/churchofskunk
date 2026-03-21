@@ -9,8 +9,8 @@ function myFunction() {
 
 
 
-async function loadQuotesFromFile("bushisms.txt") {
-    const response = await fetch(bushisms.txt);
+async function loadQuotesFromFile(fileName) {
+    const response = await fetch(fileName);
     const text = await response.text();
     return text 
       .split('\n')
@@ -20,11 +20,11 @@ async function loadQuotesFromFile("bushisms.txt") {
 
 async function showRandomQuote() {
   const quotes = await
-loadQuotesFromFile("bushisms.txt");
+loadQuotesFromFile('bushisms.txt');
   const randomQuote =
 quotes[Math.floor(Math.random() *
 quotes.length)];
-  document.getElementsById('quoteBox').textContent = randomQuote;
+  document.getElementById('quoteBox').textContent = randomQuote;
 }
 
 

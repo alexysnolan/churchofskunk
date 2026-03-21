@@ -164,16 +164,17 @@ p {
 
 
 .container3 {
-    width: 50%;
+    width: 70%;
     margin: auto;
     margin-top: 50px;
     height: 100%;
     text-align: center;
-    color: #B8860B;
-    text-shadow: 2px 0px 0px #FFFFFF;
-    font-weight: bold;
-    font-family: Helvetica, serif; 
-    font-size: 3rem;
+    color: #00000;
+    text-shadow: 1px 1px 0px #FFFFFF;
+    font-weight: 100;
+    font-family: Garamond, serif; 
+    font-size: 2rem;
+    font-style: italic;
 
 }
 
@@ -181,16 +182,16 @@ p {
   padding: 1rem 1rem;
   border: 10px outset buttonborder;
   border-radius: 5px;
-  border-color: #B8860B;
+  border-color: #000000;
   color: #FFFFFF;
-  letter-spacing: 1.4px;
-  background-color: #076cab;
+  letter-spacing: 1.2px;
+  background-color: #6D6968;
   text-align: center;
   text-decoration: none;
   font-family: Helvetica, serif;
   cursor: pointer;
   margin-bottom: 20px;
-  font-size: 2.5rem;
+  font-size: 1rem;
   font-weight: bold;
 
 }
