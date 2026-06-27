@@ -1,140 +1,112 @@
 <!doctype html>
 <html>
 <head>
-  <title> Church of Skunk - Official Home Page </title>
+  <title> Church of Skunk - Praise Be </title>
   <meta content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="styles.css">
-  <link rel="icon" type="image/png" href="skunkfavicon.jpg">
-</head>
+  <link rel="stylesheet" href="CSS/styles.css">
+  <link rel="stylesheet" href="CSS/nav.css">
+  <link rel="stylesheet" href="CSS/footer.css">
+  <link rel="icon" type="image/png" href="PHOTOS/BRANDED/skunkfavicon.jpg">
+  </head>
 
-<body>
 <header>
-
-<div class="topnav" id="myTopnav">
-  <a href="http://www.churchofskunk.com" class="active">Home</a>
-
-  <div class="dropdown">
-    <button class="dropbtn">About 
-      <i class="fa fa-caret-down"></i>
-    </button>
-    <div class="dropdown-content">
-      <a href="http://www.churchofskunk.com/About/index.html">FAQ</a>
-      <a href="http://www.churchofskunk.com/Deities/index.html">Deities</a>
-      <a href="http://www.churchofskunk.com/Practices/index.html">Practices</a>
-      <a href="http://www.churchofskunk.com/History/index.html">Origin Story</a>
-    </div>
-  </div> 
-
-<div class="dropdown">
-    <button class="dropbtn">Community 
-      <i class="fa fa-caret-down"></i>
-    </button>
-    <div class="dropdown-content">
-      <a href="http://www.churchofskunk.com/Council/index.html">Council & Members</a>
-      <a href="http://www.churchofskunk.com/Events/index.html">Events</a>
-      <a href="http://www.churchofskunk.com/News/index.html">News</a>
-      <a href="http://www.churchofskunk.com/Art/index.html">Arts & Culture</a>
-    </div>
-  </div> 
-
-      
-
-  <a href="https://docs.google.com/forms/d/e/1FAIpQLSfsDRfyBIzU86reP4CoLUwrKKQf8oFb-uvYBqgk0LtLGtGFpA/viewform?usp=header">Join</a>
-  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
-</div>
-
-
-
-<img src="banner.jpg"
-     alt="welcome banner"
-     width="100%">
-
-<div style="padding-left:0px">
-  <h1>PRAISE BE TO SKUNK</h1>
-</div>
-
-<script src="myScript.js"></script>
-
-
-  </header>
-</body>
-
-
+  <div id="navbar"></div>
+  <div id="overlay" class="overlay"></div>
+  <script src="/JAVA/navScript.js"></script>
+</header>
 
 <body>
+<img src="PHOTOS/BRANDED/welcome.png" width="100%" height="auto">
 
-<div id="container3">
-
-<div class="containerPrayer">
-        <div id="PrayerHere">
+<div class="intro">
+  <div class="blurb">
+  <h1> Join the congregation</h1>
+    <p> We follow the Sacred Scent and Stripe of Skunk, who is our boundlessly benevolent creator. Skunk's mercy, pity, patience, bounty, grace, and love guide us on a path of holy existence. </p>
+    <p>Our organization, Church of Skunk, is a polytheistic custom religion (aka "cult") dedicated to worshipping Skunk and other deities of your choice. </p>
+ 
+    <!-- 
+    ok idea for this section, join message in the left corner and skunk fact generator off to the right. Maybe I can come up with a bunch of "church" skunk facts and have the generator alternate between real skunk and church skunk facts???
+  -->
+  </div>
+  
+  <div class="facts">
+    <p class="generatefact">Generate Skunk Fact</p>
+    <div id="containerFacts">
+      <div class="containerFacts">
+        <div id="factBox">click or tap on skunk below &#8628;
         </div>
-        <br>
       </div>
-
-    <button id="btn" class="buttonPrayer" onclick="generatePrayerFacts(); displayText()"><img src="gay.png" alt="holy skunk painting."
-     width="420" height="420"></button>    <div id="textcontainer"></div>
+    <button id="btnfact" class="buttonFacts" onclick="showRandomFact()"><img src="./PHOTOS/BRANDED/skunkfacts.png" width="100%" alt="skunk"></button>  
+    <script src="/JAVA/myScript.js"></script>
+    </div>
   </div>
+</div>
 
-
-
-
-  <div class="container2">
-   <p><br> 
-     <a href="http://www.churchofskunk.com/About/index.html" class="button2"> About Us</a>
-     <a href="http://www.churchofskunk.com/Deities/index.html" class="button2"> Our Deities</a>
-     <a href="http://www.churchofskunk.com/Practices/index.html" class="button2">Our Practices</a>
-     <a href="http://www.churchofskunk.com/History/index.html" class="button2">Origin Story</a>
-
-    <br> <br> <br>
-   </p>
-  </div>
-
-
-
-
-
-  <div id="container3">
-
-<div class="container3">
-        <div id="here">
+<section class="directory">
+  <h2 class="section-title">Find your path</h2>
+  <ul class="card-grid">
+    <li class="card-item">
+      <article class="card">
+        <div class="card-image-wrapper">
+          <img src="/PHOTOS/BRANDED/favicon2.png" alt="skunk" class="card-image">
         </div>
-        <br>
-      </div>
+        <h3 class="card-title">FAQ</h3>
+        <p class="card-text">Find answers to common questions about Skunk</p>
+        <a href="/ABOUT/faq.html" class="card-link">Learn More</a>
+      </article>
+    </li>
 
-    <button id="btn" class="button3" onclick="generateFacts()">Generate Random Skunk Fact!</button>  
-      
+    <li class="card-item">
+      <article class="card">
+        <div class="card-image-wrapper">
+          <img src="/PHOTOS/BRANDED/favicon2.png" alt="skunk" class="card-image">
+        </div>
+        <h3 class="card-title">Practices</h3>
+        <p class="card-text">Learn more about how to worship Skunk</p>
+        <a href="/ABOUT/practices.html" class="card-link">Learn More</a>
+      </article>
+    </li>
+    
+    <li class="card-item">
+      <article class="card">
+        <div class="card-image-wrapper">
+          <img src="/PHOTOS/BRANDED/favicon2.png" alt="skunk" class="card-image">
+        </div>
+        <h3 class="card-title">Deities</h3>
+        <p class="card-text">Discover the deities in our Church pantheon</p>
+        <a href="/ABOUT/deities.html" class="card-link">Learn More</a>
+      </article>
+    </li>
+    
+    <li class="card-item">
+      <article class="card">
+        <div class="card-image-wrapper">
+          <img src="/PHOTOS/BRANDED/favicon2.png" alt="skunk" class="card-image">
+        </div>
+        <h3 class="card-title">Community</h3>
+        <p class="card-text">Learn more about our members and culture</p>
+        <a href="/COMMUNITY/members.html" class="card-link">Learn More</a>
+      </article>
+    </li>
+  
+  </ul>
+</section>
+
+
+<!--PRAYER ANSWERS GENERATOR-->
+  <div id="containerPrayer">
+     <div class="containerPrayer">
+        <div id="prayerBox">
+        </div>
+     </div>
+    <button id="btn" class="buttonPrayer" onclick="showRandomPrayer(); displayText()"><img src="./PHOTOS/BRANDED/holyskunk.png" width="300px" alt="holyskunk"></button>  
+    <div id="textcontainer"></div>
+    <script src="/JAVA/myScript.js"></script>
   </div>
 
-
-
-
-
-
-
-<br>
-    <br>
-    <h2> Join Church of Skunk! </h2> 
-     <p> Receive a free Skunk Sticker & option to sign up for our Annual Newsletter </p>
-     <br>
-     <p> <a href="https://docs.google.com/forms/d/e/1FAIpQLSfsDRfyBIzU86reP4CoLUwrKKQf8oFb-uvYBqgk0LtLGtGFpA/viewform" class="button4"> Membership Form</a> <a href="mailto:churchofskunk@gmail.com" class="button4">Contact us via Email</a>
-         </p>
-     <br><br>
+  <div id="footsies"></div>
+  <script src="./JAVA/myScript.js"></script>
 
 </body>
-
-
-
-
-
-
-
-<body>  
-   <footer style="height: 25px; width: 100%; position: fixed; bottom:0; left:0; background-color: #000000; color: #FFFFFF;"><p style="font-size: 12; color: #000000;">Skunk bless</p></footer>
-</body>   
-
-
 
 </html>
-
-
-
