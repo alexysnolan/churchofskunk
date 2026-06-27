@@ -610,12 +610,13 @@ h1 {
 
 /* *****MEMBERS PAGE***** */
 .members {
-  background-image: url(../PHOTOS/DESIGNS/scroll.png);
+  /*background-image: url(../PHOTOS/DESIGNS/scroll.png);*/
   background-repeat: no-repeat;
   background-position: center;
   min-width: 80%;
   height: auto;
-  aspect-ratio: 9 / 16; 
+  /*aspect-ratio: 9 / 16; */
+  background-color: var(--ivory-glow);
 }
 
 .council {
@@ -662,6 +663,7 @@ h1 {
     list-style: none;
     line-height: 5px;
     padding-bottom: 10px;
+    padding-top: 10px;
 }
 
 

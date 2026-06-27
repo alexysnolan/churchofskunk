@@ -40,7 +40,7 @@ async function loadMembers() {
         councilHTML += `
          
             <p class="councilList">${member.displayname}</p>
-            <p class="councilList">${member.council}</p>
+            <p class="councilList"><i>${member.council}</i></p>
 
         `;
      });
