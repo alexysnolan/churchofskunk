@@ -69,6 +69,9 @@ loadMembers();
 
 
 async function initQuotes() {
+    const quoteBox = document.getElementById("quoteBox");
+    if (!quoteBox) return;
+    
     const response =
         await fetch('../LISTS/bushisms.json');
     quotes = await response.json();
