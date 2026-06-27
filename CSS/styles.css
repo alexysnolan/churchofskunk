@@ -598,7 +598,8 @@ h1 {
     padding-right:20px;
     padding-bottom: 20px;
     background-color: var(--shadow-brown);
-    color:#8c6a1c;
+    border-radius: 20px;
+    color: var(--antique-gold);
     font-family: var(--paragraph);
     text-align: justify;
     font-size: 0.9 rem;
