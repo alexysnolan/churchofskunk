@@ -1,0 +1,112 @@
+<!doctype html>
+<html>
+<head>
+  <title> Church of Skunk - Praise Be </title>
+  <meta content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="CSS/styles.css">
+  <link rel="stylesheet" href="CSS/nav.css">
+  <link rel="stylesheet" href="CSS/footer.css">
+  <link rel="icon" type="image/png" href="PHOTOS/BRANDED/skunkfavicon.jpg">
+  </head>
+
+<header>
+  <div id="navbar"></div>
+  <div id="overlay" class="overlay"></div>
+  <script src="/JAVA/navScript.js"></script>
+</header>
+
+<body>
+<img src="PHOTOS/BRANDED/welcome.png" width="100%" height="auto">
+
+<div class="intro">
+  <div class="blurb">
+  <h1> Join the congregation</h1>
+    <p> We follow the Sacred Scent and Stripe of Skunk, who is our boundlessly benevolent creator. Skunk's mercy, pity, patience, bounty, grace, and love guide us on a path of holy existence. </p>
+    <p>Our organization, Church of Skunk, is a polytheistic custom religion (aka "cult") dedicated to worshipping Skunk and other deities of your choice. </p>
+ 
+    <!-- 
+    ok idea for this section, join message in the left corner and skunk fact generator off to the right. Maybe I can come up with a bunch of "church" skunk facts and have the generator alternate between real skunk and church skunk facts???
+  -->
+  </div>
+  
+  <div class="facts">
+    <p class="generatefact">Generate Skunk Fact</p>
+    <div id="containerFacts">
+      <div class="containerFacts">
+        <div id="factBox">click or tap on skunk below &#8628;
+        </div>
+      </div>
+    <button id="btnfact" class="buttonFacts" onclick="showRandomFact()"><img src="./PHOTOS/BRANDED/skunkfacts.png" width="100%" alt="skunk"></button>  
+    <script src="/JAVA/myScript.js"></script>
+    </div>
+  </div>
+</div>
+
+<section class="directory">
+  <h2 class="section-title">Find your path</h2>
+  <ul class="card-grid">
+    <li class="card-item">
+      <article class="card">
+        <div class="card-image-wrapper">
+          <img src="/PHOTOS/BRANDED/favicon2.png" alt="skunk" class="card-image">
+        </div>
+        <h3 class="card-title">FAQ</h3>
+        <p class="card-text">Find answers to common questions about Skunk</p>
+        <a href="/ABOUT/faq.html" class="card-link">Learn More</a>
+      </article>
+    </li>
+
+    <li class="card-item">
+      <article class="card">
+        <div class="card-image-wrapper">
+          <img src="/PHOTOS/BRANDED/favicon2.png" alt="skunk" class="card-image">
+        </div>
+        <h3 class="card-title">Practices</h3>
+        <p class="card-text">Learn more about how to worship Skunk</p>
+        <a href="/ABOUT/practices.html" class="card-link">Learn More</a>
+      </article>
+    </li>
+    
+    <li class="card-item">
+      <article class="card">
+        <div class="card-image-wrapper">
+          <img src="/PHOTOS/BRANDED/favicon2.png" alt="skunk" class="card-image">
+        </div>
+        <h3 class="card-title">Deities</h3>
+        <p class="card-text">Discover the deities in our Church pantheon</p>
+        <a href="/ABOUT/deities.html" class="card-link">Learn More</a>
+      </article>
+    </li>
+    
+    <li class="card-item">
+      <article class="card">
+        <div class="card-image-wrapper">
+          <img src="/PHOTOS/BRANDED/favicon2.png" alt="skunk" class="card-image">
+        </div>
+        <h3 class="card-title">Community</h3>
+        <p class="card-text">Learn more about our members and culture</p>
+        <a href="/COMMUNITY/members.html" class="card-link">Learn More</a>
+      </article>
+    </li>
+  
+  </ul>
+</section>
+
+
+<!--PRAYER ANSWERS GENERATOR-->
+  <div id="containerPrayer">
+     <div class="containerPrayer">
+        <div id="prayerBox">
+        </div>
+     </div>
+    <button id="btn" class="buttonPrayer" onclick="showRandomPrayer(); displayText()"><img src="./PHOTOS/BRANDED/holyskunk.png" width="300px" alt="holyskunk"></button>  
+    <div id="textcontainer"></div>
+    <script src="/JAVA/myScript.js"></script>
+  </div>
+
+  <div id="footsies"></div>
+  <script src="./JAVA/myScript.js"></script>
+
+</body>
+
+</html>

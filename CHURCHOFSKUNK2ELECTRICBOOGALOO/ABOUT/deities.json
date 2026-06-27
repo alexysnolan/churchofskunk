@@ -1,0 +1,197 @@
+[
+{
+"id":"skunk",
+"name": "Skunk",
+"type": "Deity",
+"image": "../PHOTOS/BRANDED/haaaaa.png",
+"symbol": "Stripes",
+"sayings": 
+    [{
+    "phrases": [
+        "Praise be",
+        "Praise Skunk"
+        ],
+    "meaning": "Commonly used to express thankfulness to Skunk for Skunks holy blessings." 
+    },
+    {
+    "phrases": [
+        "Skunk Bless",
+        "Skunk Bless You"
+        ],
+    "meaning": "Invokes skunks blessings on others."
+    },
+    {
+    "phrases": ["Blessed be"],
+    "meaning": "Used when you want to express that you are feeling blessed"
+    }],
+"description":"In the beginning, Skunk created everything. Skunk saw everything Skunk had made, and behold, it was not too shabby for a first try. Skunk decided to join the mortal world, and began populating the earth with more skunks via skunk meiosis - first the Singular Skunk decided to split into two skunks, which then split into four skunks, which continue to divide to this day. Some have decided to wear more stripes than others, some prefer brown or apricot fur, but they're all the Divine Skunk in different forms. Skunk is the highest deity in Church of Skunk.",
+"offerings": "Skunk most highly values insect sacrifices at the altar, but Skunk also appreciates fruits, nuts, seeds, and dried flowers.",
+"rituals": [
+    "The Great Hibernation: Church members celebrate The Great Hibernation every January and February. Late fall and early winter months are spent preparing for the Hibernation by feasting and hoarding necessary supplies. Then, on January first, The Great Hibernation begins. Those who celebrate the holiday begin increasing the length of their nightly slumbers, and engaging in more and more naps as the days pass. The holiday reaches its peak on the last day of January, when practitioners gather together for a collective day of non-stop napping - a practice that ushers in a new age of peace and quiet. Thereafter, church members will continue high levels of snoozing in daily life, but will gradually decrease the naps and length of sleeps until returning to normal sleep patterns in the middle of February as Spring Awakening begins. ",
+    " Annointing: receiving Skunks holy spray is considered an annointing. Skunk annoints worthy followers to recognize their dedication. Skunk also annoints those who have committed atrocities and have fully repented for them. Only through Skunks holy annointing can someone who has committed an atrocity be welcomed into Church of Skunk."
+    ],
+"associations": "Skunk is the God of Everything except construction, corn, and some cheeses."
+},
+{
+"id":"morrigan",
+"name": "Macha and Badb of The Morrigan",
+"type": "Deity",
+"image": "../PHOTOS/BRANDED/morrigan.png",
+"symbol":"Crow, Raven, Black feathers, Fluffy black cat, Battlefield winds",
+"sayings": 
+    [{
+    "phrases": ["Fate circles overhead"],
+    "meaning": "Used when flying crows are observed, pertinent when outcomes of the situation are unsure"
+    }],
+"description":"Macha and Badb (pronounced 'Baahv') are deities known as The Morrigan. She is a powerful shapeshifting goddess of olde, originating in Irish mythology. The Morrigan holds the most power when it comes to war and death. She is not evil in any way, she represents the storm that cannot be avoided. The Morrigan is also associated with fate and sovereignty. Gatherings of crows and ravens indicate that Badb is watching the turning of fate; her presence signals change, warning, and/or revelation.  Within Church of Skunk, she is most powerful in her fluffy black cat form (Macha) and in her crow/raven forms (Badb). Macha will curse those who display abuse of power, arrogance, or cowardice. Her most famous myth entails cursing the men of Ulster with birth pains as punishment for corruption, arrogance, and unmerciful behavior.",
+"offerings":"Macha appreciates moth and spider sacrifices at her altar.",
+"rituals": "Badb is connected to Samhain, which occurs annually on October 31 and Novembe 1. During this time, the boundary between the living world and the Otherworld is at its weakest. It is traditional to honor the dead by placing their photo on Badb's altar and lighting a candle. Others celebrate by attempting divination or lighting bonfires.",
+"associations": "War, death, fate, sovereignty"
+},
+{
+"id":"hazelnut",
+"name": "Hazelnut",
+"type": "Deity",
+"image": "../PHOTOS/BRANDED/hazelnut.png",
+"symbol":"Hazelnuts, Hazel twigs",
+"sayings": 
+    [{
+    "phrases": ["None"],
+    "meaning": " "
+    }],
+"description":"Hazelnut is associated with wisdom and prophetic knowledge. In Celtic lore, The Nine Hazel Trees hung over a sacred Otherworld well. They dropped purple nuts into the water, creating bubbles of mystic inspiration. The sacred salmon ate these nuts. Anyone who ate these salmon instantly gained divine wisdom and poetic powers. In addition to their nuts, Hazel twigs also hold a lot of power and were once used to channel magick. Although magick is not a strong force in the modern world, some Church of Skunk members use it in their religious practice and hope that there will be a day when magick returns to the world more strongly.",
+"offerings":"Hazelnut enjoys stillness and intention; instead of making a sacrifice to hazelnut, engage in a quiet meditation, prayer, or candle lighting ritual before Hazelnut's altar. Some worshippers incorporate sensory elements such as aromatic oils, crushed herbs, and smooth stones into their meditative practice.",
+"rituals": 
+        [
+        "Hazelnut's prophetic knowledge can be interpreted through the sacred nut cracking ritual. Before important decisions, a hazelnut worshipper can speak their inquiry aloud and then crack open a hazelnut to reveal Hazelnuts' wisdom. A nut that cracks open cleanly predicts a favorable outcome; a shattered shell indicates that caution must be exercised; an empty shell forecasts unfavorable outcomes; a spoiled nut is a harbinger of hidden danger.",
+        "Hazel was widely used throughout the centuries for protection against evil, and it has long been a favourite wood from which to make staffs. In days gone by hazelnuts would have provided a plentiful and easily stored source of protein, and they were often ground up and mixed with flour to be made into nourishing breads. Cultivated hazelnuts called filberts take their name from St Philibert’s Day on 20 August, the date by which hazelnuts were supposed to start ripening. Holy Cross Day on 14 September was traditionally given as a school holiday for children to go nutting, a custom which persisted in England until the First World War. Church of Skunk members are encouraged to go nutting."
+        ],
+"associations": "Omens, intuitions, protective charms, dreams, spoken incantations"
+},
+{
+"id":"sun",
+"name": "The Sun",
+"type": "Deity",
+"image": "../PHOTOS/BRANDED/sun.png",
+"symbol":"The Sun",
+"sayings": 
+    [{
+    "phrases": ["The light shine on you"],
+    "meaning": "A common, heartfelt blessing representing a wish for protection and goodness. "
+    },
+    {   
+    "phrases": ["May the light illumine you"],
+    "meaning": "A blessing used to wish for protection, guidance, or joy."
+    }],
+"description":"As one of the oldest deities, the sun has been worshipped in many cultures and religions throughout human history. It is nurturing, as it brings light, life, and warmth into the world; however, the Sun can also be quite merciless as it is associated with justice. The Sun will dole out gorgeous sunny days or blistering sweaty days impartially, depending on what is rightfully called for.",
+"offerings":"Cannot be bribed (and may take offense if you try).",
+"rituals": "The Sun is to be celebrated on the summer solstice. Day to day worship is most appropriate at dawn or high noon.",
+"associations": "Justice, light, warmth, punishment"
+},
+{
+"id":"dolly",
+"name": "Dolly Parton",
+"type": "Deity",
+"image": "../PHOTOS/BRANDED/dolly.png",
+"symbol":"Butterflies",
+"sayings": 
+    [{
+    "phrases": ["\"Storms make trees take deeper roots\""],
+    "meaning": "This is a metaphor for resilience, suggesting that facing adversity, challenges, or \"storms\" in life ultimately strengthens a person’s character, faith, or foundation, making them more stable and enduring"
+    },
+    {
+    "phrases": ["\"If you see someone without a smile today, give 'em yours\""],
+    "meaning": "THis is a sentiment that serves as a reminder to share kindness and positivity with others"
+    }],
+"description":"Dolly Parton is the goddess of Kindness, Music, and Charity. She is also associated with having a good time, particularly in a hill people kind of way.",
+"rituals": "Dolly's essence can be channeled by gathering in outdoor spaces and sharing stories or singing folk songs; these gatherings are believed to strengthen the spirit against hardship and despair. Devout followers can celebrate Dolly by playing their nails percussively.",
+"offerings":"Dolly appreciates dried flower sacrifices at the altar, and childrens book donations to free libraries.",
+"associations": "Kindness, country music, philanthropy, storytelling, appalachian resilience"
+},
+{
+"id":"danny",
+"name": "Danny Devito",
+"type": "Deity",
+"image": "../PHOTOS/BRANDED/danny.png",
+"symbol":"",
+"sayings": 
+    [{
+    "phrases": ["Throw me in the trash"],
+    "meaning": "Used to express the importance of living life to the fullest before you die and nothing matters."
+    }],
+"description":"Danny Devito is the protector of societal outcasts and people who do not have donkey brains. He rightly serves as the god of debauchery and chaos.",
+"offerings":"Danny appreciates rum ham, cat food, and egg sacrifies; it is also appropriate to refer to Danny Devito sacrifies as troll tolls. While tolls can be paid at an altar to Danny, it is more appropriate to deposit them in any Wendy's dumpster.",
+"rituals": "Danny's followers engage in routine games of Night Crawlers",
+"associations": "Debauchery, chaos, societal outcasts"
+},
+{
+"id":"cornlord",
+"name": "Corn Lord",
+"type": "Enemy",
+"image": "../PHOTOS/ENEMIES/cornlord.png",
+"symbol":"Corn, endless rows",
+"description":"Corn lord is an entity composed of corn kernels, cobs, husks, and stalks. A force of uniformity and monotony, Corn Lord opposes everything that is wild and free, seeking to choke the world in endless rows. Corn Lord is enemy #1 in Church of Skunk. Corn lord wants nothing more than to destroy skunk and all that skunk stands for. He is devious and clever, and will whisper his sacrilegious plans in the ears of the unsuspecting - compelling them to do his bidding. Corn Lords promises abundance, but what he gives is hollow.",
+"offerings":"Sacrifices should not be made to corn lord.",
+"rituals": "",
+"associations": "Monotony, uniformity, false plenty, being round-up ready"
+},
+{
+"id":"smokey",
+"name": "Smokey",
+"type": "Enemy",
+"image": "../PHOTOS/ENEMIES/smokey.png",
+"symbol":"",
+"sayings": 
+    [{
+    "phrases":["Only YOU can prevent forest fires"],
+    "meaning": "Propaganda"
+    }],
+"description":"Evil",
+"offerings":"",
+"rituals": "",
+"associations": ""
+},
+{
+"id":"conelord",
+"name": "Cone Lord",
+"type": "Enemy",
+"image": "../PHOTOS/ENEMIES/conelord.png",
+"symbol":"Traffic cones, orange barrels, god forsaken temporary automated stoplights that make you sit for an excessively long time for no fucking reason",
+"sayings": 
+    [{
+    "phrases":["ROAD WORK AHEAD / BE PREPARED TO STOP / DETOUR"],
+    "meaning": "An indicator that you are entering a realm under Cone Lord's control"
+    }],
+"description":"Cone Lord is an evil deity that rules road construction. He is a smaller evil than Cone Lord and Smokey, but he is equally merciless and cruel in nature.",
+"offerings":"not recommended",
+"rituals": "Cone Lords power goes stronger when drivers express feelings of anger or frustration. Drivers are encouraged to take deep, meditative breaths to calm themselves and take away Cone Lords power.",
+"associations": "Road construction"
+},
+{
+"id":"mumkinman",
+"name": "Mumkin Man",
+"type": "Enemy",
+"image": "../PHOTOS/ENEMIES/mumkinman.png",
+"symbol":"",
+"description":"The Mumkin Man is a cursed entity with unknown motivations and intentions. His appearance strikes terror into the soul of anyone who is unfortunate enough to be in his presence.",
+"offerings":"",
+"rituals": "",
+"associations": ""
+},
+{
+"id":"yodelingpickle",
+"name": "Yodeling Pickle",
+"type": "Neutral Entity",
+"image": "../PHOTOS/ENEMIES/yodelingpickle.png",
+"symbol":"Lederhosen, little green hats",
+"sayings": 
+    [{
+    "phrases": ["Yodel-ay-ee-ooo! Yodel-ay-ee-ay! Yodel-oh-dee-ooo, Yodel-ay-hee-hay!"],
+    "meaning": "Variable"
+    }],
+"description":"The yodeling pickle is technically a neutral entity, though it is currently under investigation for demonic behavior. It may grant you good fortune, but it gets a sick pleasure out of chaos and will usually only do so if your goals align with the pickles underlying motivations. It is known for supporting right wing fanatics and will not hesitate to curse you if you offend it. Do not let your guard down around the pickle; it will always sing its haunting melody when least expected.",
+"offerings":"",
+"rituals": "",
+"associations": "Alt-right, political conservatives"
+}
+]
