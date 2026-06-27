@@ -125,10 +125,8 @@ console.log(deity);
         deity.sayings.forEach(saying => {
         sayingsHTML += `
 
-
             <h3 class="card-title">${saying.phrases.join(" / ")}</h3>
             <p><i>${saying.meaning}</i></p>
-
 
         `;
      });
