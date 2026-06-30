@@ -613,13 +613,14 @@ h1 {
 
 /* *****MEMBERS PAGE***** */
 .members {
-  /*background-image: url(../PHOTOS/DESIGNS/scroll.png);*/
+ /* background-image: url(../PHOTOS/DESIGNS/scroll.png);*/
   background-repeat: no-repeat;
   background-position: center;
-  min-width: 80%;
-  height: auto;
+  /*min-width: 80%;*/
+  height: 100%;
   /*aspect-ratio: 9 / 16; */
   background-color: var(--ivory-glow);
+  padding-bottom: 50px;
 }
 
 .council {
@@ -638,6 +639,15 @@ h1 {
     word-break: break-word;
     max-width: 25ch;
     margin: 0 auto;
+}
+
+.memberInfo {
+  font-family: var(--paragraph);
+  color: var(--burnished-antique-gold);
+  font-size: 1.2rem;
+  font-weight: 700;
+  padding-bottom: 30px;
+  letter-spacing: 1px;
 }
 
 .public-members {

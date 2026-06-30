@@ -39,8 +39,8 @@ async function loadMembers() {
     councilMembers.forEach(member => {
         councilHTML += `
          
-            <p class="councilList">${member.displayname}</p>
-            <p class="councilList"><i>${member.council}</i></p>
+            <p class="names">${member.displayname}</p>
+            <p class="memberInfo">${member.council}</p>
 
         `;
      });
@@ -53,8 +53,10 @@ async function loadMembers() {
         memberHTML += `
             <div class="public-members">
             <p class="names">${member.displayname}</p>
+            <div class="memberInfo">
             <p>Member for: ${membershipLength}</p>
             <p><i>Joined: ${member.joindate}</i></p>
+            </div>
             </div>
         `;
     });
@@ -71,7 +73,7 @@ loadMembers();
 async function initQuotes() {
     const quoteBox = document.getElementById("quoteBox");
     if (!quoteBox) return;
-    
+
     const response =
         await fetch('../LISTS/bushisms.json');
     quotes = await response.json();
