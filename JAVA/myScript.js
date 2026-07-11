@@ -93,7 +93,7 @@ prayers.length)];
 
 function displayText() {
   const outputDiv = document.getElementById("textcontainer");
-  outputDiv.textContent = "When you tap on skunk, skunk answers your prayers. You may not like the answer, but at least you will know your fate.";
+  outputDiv.textContent = "THUSLY SKUNK HAS SPOKEN";
 }
 
 

@@ -114,11 +114,12 @@ console.log(deity);
     practicingDeities.forEach(deity => {
         sayingsHTML += `
 
+            <h1>${deity.name}</h1>
             <img class="practices-pic" 
             src="${deity.image}"
             alt="${deity.name}"
             >
-            <h1>${deity.name}</h1>
+
 
     `;      
         

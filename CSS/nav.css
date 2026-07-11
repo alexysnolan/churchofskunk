@@ -2,7 +2,7 @@
   top:0;
   z-index:9999;
   min-height: 60px;
-  background: #000000;
+  background: #0b0b0b;
 }
 
 /* *****TOP NAV BAR***** */
@@ -73,7 +73,7 @@
 .off-screen-menu {
     background-color: rgba(106, 52, 88, 0.5);
     height: 100vh;
-    width: 40%;
+    width: 70%;
     max-width: 450px;
     position: fixed;
     top: 0;
@@ -151,7 +151,8 @@ nav {
     top: 50%;
     transform: translate(-50%, -50%) rotate(-45deg);
 }
-*/
+    */
+
 
 
 /* *****SUBMENU***** */

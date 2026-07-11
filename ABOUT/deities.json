@@ -125,6 +125,12 @@
 "associations": "Debauchery, chaos, societal outcasts"
 },
 {
+"id":"justin",
+"name": "Saint Justin",
+"type": "Saint",
+"description":"Patron saint of patience and benevolence; raised to sainthood after enduring years of antagonization with grace."
+},
+{
 "id":"cornlord",
 "name": "Corn Lord",
 "type": "Enemy",
