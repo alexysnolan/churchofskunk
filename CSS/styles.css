@@ -361,10 +361,10 @@ h1 {
 /* *****FAQ COLLAPSIBLE CONTAINER***** */
 
 .collapsible-container {
-  margin-left:10%;
-  margin-right:10%;
+  margin-left:6%;
+  margin-right:6%;
   margin-top:8px;
-  width:80%;
+
 }
 
 .collapsible {
@@ -597,6 +597,11 @@ h1 {
   border-radius: 40px;
 }
 
+.deity-subtitle {
+  margin-bottom: -12px;
+  padding-bottom: 0px;
+  text-transform: uppercase;
+}
 
 .stopSmokey {
     padding-top: 20px;
@@ -730,13 +735,30 @@ h1 {
   text-align: center;
 }
 
-.practices-pic {
-  width: 50%;
-  box-shadow: 0 0 10px 2px #8c6a1c;
-  border-radius: 40px;
-  margin-top: 50px;
+.practices-title {
+  margin-top: 2rem;
 }
 
+.practices-pic {
+  width: 50%;
+  max-width: 225px;
+  box-shadow: 0 0 10px 2px #8c6a1c;
+  border-radius: 50%;
+  margin-top: 0px;
+}
+
+.ritualsContainer {
+  margin-top: 0px;
+  color: var(--ivory-glow);
+  text-align: center;
+}
+
+.rituals-pic {
+  width: 50%;
+  box-shadow: 0 0 10px 2px #8c6a1c;
+  border-radius: 50%;
+  margin-top: 50px;
+}
 
 /* ART */
 
@@ -766,6 +788,7 @@ h1 {
 
 .bush-pic {
   border-radius: 200px;
+
 }
 
 .bush-button {

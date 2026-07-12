@@ -36,12 +36,22 @@ let sayingsHTML = "";
 deity.sayings.forEach(saying => {
 
     sayingsHTML += `
-        <h3>${saying.phrases.join(" / ")}</h3>
+        <h3 class="deity-subtitle">${saying.phrases.join(" / ")}</h3>
         <p><i>${saying.meaning}</i></p>
     `;
 
 });
 
+let ritualsHTML = "";
+
+deity.rituals.forEach(ritual => {
+
+    ritualsHTML += `
+        <h3 class="deity-subtitle">${ritual.title.join(" / ")}</h3>
+        <p>${ritual.practice}</p>
+    `;
+
+});
 
 
     document.getElementById(
@@ -70,7 +80,7 @@ deity.sayings.forEach(saying => {
         <p>${deity.offerings}</p>
 
         <h2 class="card-title">Rituals</h2>
-        <p>${deity.rituals}</p>
+        <p>${ritualsHTML}</p>
 
         <h2 class="card-title">Associations</h2>
         <p>${deity.associations}</p>
@@ -114,7 +124,7 @@ console.log(deity);
     practicingDeities.forEach(deity => {
         sayingsHTML += `
 
-            <h1>${deity.name}</h1>
+            <h1 class="practices-title">${deity.name}</h1>
             <img class="practices-pic" 
             src="${deity.image}"
             alt="${deity.name}"
@@ -126,9 +136,10 @@ console.log(deity);
         deity.sayings.forEach(saying => {
         sayingsHTML += `
 
-            <h3 class="card-title">${saying.phrases.join(" / ")}</h3>
+            <h3 class="deity-subtitle">${saying.phrases.join(" / ")}</h3>
             <p><i>${saying.meaning}</i></p>
 
+            
         `;
      });
 
@@ -136,6 +147,50 @@ console.log(deity);
 
     document.getElementById("sayingsContainer").innerHTML = sayingsHTML;}
 loadSayings();
+
+
+//   PRACTICES - RITUALS
+async function loadRituals() {
+    const response =
+        await fetch("../ABOUT/deities.json");
+    const deity =
+        await response.json();
+
+console.log(deity);
+
+    const practicingDeities =
+        deity.filter(d => d.type === "Deity");
+
+    let ritualpageHTML = "";
+    practicingDeities.forEach(deity => {
+        ritualpageHTML += `
+            
+            <div class="deity-description">
+            <h1>${deity.name}</h1>
+            <img class="rituals-pic" 
+            src="${deity.image}"
+            alt="${deity.name}"
+            >.
+            </div>
+
+    `;      
+        
+        deity.rituals.forEach(ritual => {
+        ritualpageHTML += `
+
+        <div class="deity-description">
+            <h3 class="deity-subtitle">${ritual.title.join(" / ")}</h3>
+            <p><i>${ritual.practice}</i></p>
+        </div>
+
+        `;
+     });
+
+    });
+
+    document.getElementById("ritualsContainer").innerHTML = ritualpageHTML;}
+loadRituals();
+
 
 
 //            <p>${deity.sayings.phrases.join(" / ")}</p>
