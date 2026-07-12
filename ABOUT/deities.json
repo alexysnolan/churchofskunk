@@ -149,7 +149,7 @@
 "rituals": 
         [{
         "title": ["Night Crawlers / Nyte Krollers"],
-        "practice": ["Danny's followers engage in routine rituals of Night Crawlers, which has been described as \"A game where they crawl around in the night like worms.\" The ritual begins when a participant turns out the lights and intones \"Darkness falls...\", they then wrap a blanket around their head and announce \"And magic sturns\". The other participants shroud themselves in blankets and cry out in unison \"As we become the creatures of the night!\" Participants then crawl around beneath the layer of \"dirt\" (blankets) and attempt to mine minerals."]
+        "practice": ["Danny's followers engage in routine rituals of Night Crawlers, which has been described as \"A game where they crawl around in the night like worms.\" The ritual begins when a participant turns out the lights and intones \"Darkness falls...\", they then wrap a blanket around their head and announce \"And magic stirs\". The other participants shroud themselves in blankets and cry out in unison \"As we become the creatures of the night!\" Participants then crawl around beneath the layer of \"dirt\" (blankets) and attempt to mine minerals."]
         }],
 "associations": "Debauchery, chaos, societal outcasts"
 },
@@ -157,7 +157,13 @@
 "id":"justin",
 "name": "Saint Justin",
 "type": "Saint",
-"description":"Patron saint of patience and benevolence; raised to sainthood after enduring years of antagonization with grace."
+"image": "",
+"symbol": "",
+"description":"Patron saint of patience and benevolence; raised to sainthood after enduring years of antagonization with grace.",
+"sayings": [{"phrases": [""], "meaning": ""}],
+"rituals": [{"title": [""], "practice":[""]}],
+"offerings": "",
+"associations": ""
 },
 {
 "id":"cornlord",
@@ -167,6 +173,10 @@
 "symbol":"Corn, endless rows",
 "description":"Corn lord is an entity composed of corn kernels, cobs, husks, and stalks. A force of uniformity and monotony, Corn Lord opposes everything that is wild and free, seeking to choke the world in endless rows. Corn Lord is enemy #1 in Church of Skunk. Corn lord wants nothing more than to destroy skunk and all that skunk stands for. He is devious and clever, and will whisper his sacrilegious plans in the ears of the unsuspecting - compelling them to do his bidding. Corn Lords promises abundance, but what he gives is hollow.",
 "offerings":"Sacrifices should not be made to corn lord.",
+"sayings": [{
+    "phrases": [""], 
+    "meaning": ""}],
+"rituals": [{"title": [""], "practice":[""]}],
 "associations": "Monotony, uniformity, false plenty, being round-up ready"
 },
 {
@@ -180,6 +190,9 @@
     "phrases":["Only YOU can prevent forest fires"],
     "meaning": "Propaganda"
     }],
+"rituals":
+    [{"title": [""], 
+    "practice":[""]}],
 "description":"Evil",
 "offerings":"",
 "associations": ""
@@ -210,8 +223,13 @@
 "type": "Enemy",
 "image": "../PHOTOS/ENEMIES/mumkinman.png",
 "symbol":"",
+"sayings": 
+    [{
+    "phrases": [""], 
+    "meaning": ""}],
 "description":"The Mumkin Man is a cursed entity with unknown motivations and intentions. His appearance strikes terror into the soul of anyone who is unfortunate enough to be in his presence.",
 "offerings":"",
+"rituals": [{"title": [""], "practice":[""]}],
 "associations": ""
 },
 {
@@ -227,6 +245,9 @@
     }],
 "description":"The yodeling pickle is technically a neutral entity, though it is currently under investigation for demonic behavior. It may grant you good fortune, but it gets a sick pleasure out of chaos and will usually only do so if your goals align with the pickles underlying motivations. It is known for supporting right wing fanatics and will not hesitate to curse you if you offend it. Do not let your guard down around the pickle; it will always sing its haunting melody when least expected.",
 "offerings":"",
+"rituals:":[{
+    "title": [""], 
+    "practice":[""]}],
 "associations": "Alt-right, political conservatives"
 }
 ]
