@@ -621,6 +621,14 @@ h1 {
     font-size: 0.9 rem;
 }
 
+.smokey-pic {
+    width: 40%;
+    min-width: 250px;
+    max-width: 450px;
+    border-radius: 60px;
+    text-align: center;
+}
+
 .smol {
   color: var(--ivory-glow);
   font-family: var(--paragraph);
