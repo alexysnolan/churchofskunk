@@ -777,9 +777,14 @@ h1 {
 
 /*trying to redo the bush thing using the home page intro div but got tired                                                                                                                                                                                                                                                                                            */
 .bush-blurb2 {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr); /* Creates exactly 2 equal columns */
-  gap: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: left;
+    color:#bbb;
+    background-color: none;
+    border-radius: 40px;
 }
 
 
@@ -819,6 +824,7 @@ h1 {
   font-family: var(--button);
   font-size: 2rem;
   font-weight: 900;
+  border-radius: 0%;
 }
 
 .a {
