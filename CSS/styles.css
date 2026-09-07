@@ -68,13 +68,13 @@ h1 {
     background-color: none;
     border-radius: 40px;
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 1fr 1fr;
     gap: 1.5rem;
 
 }
 
 .blurb {
-    display: grid;
+    /*display: grid;*/
     border: 2px, solid, #0b0b0b;
     padding: 6px 6px 6px 6px;
     margin-top: 10px;
@@ -94,7 +94,6 @@ h1 {
 /* *****FACTS***** */
 
 .facts {
-
   display: grid;
   border: 2px, solid, #0b0b0b;
   padding: 12px 12px;
@@ -136,10 +135,7 @@ h1 {
 .containerFacts {
     width: 100%;
     margin-top: 0px;
-    padding-top: 20px;
-    padding-bottom: 30px;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-top: 0px;
     text-align: center;
     color: #f5e6c8;
     text-shadow: 1px 1px 4px #8c6a1c;
@@ -147,8 +143,6 @@ h1 {
     font-family: "Montserrat", sans-serif; 
     font-size: 1.3rem;
     letter-spacing: 0px;
-  
-
 }
 
 .factBox {
@@ -184,6 +178,57 @@ h1 {
 }
 */
 
+
+
+/* *****DOCTRINE***** */
+
+.doctrine {
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-top: 40px;
+    color:#8c6a1c;
+    font-family: var(--heading);
+    text-align: justify;
+    font-size: 1.1rem;
+}
+
+.read-doctrine {
+  display: grid;
+  border: 2px, solid, #0b0b0b;
+  padding: 12px 12px;
+  border-radius: 40px;
+  flex-direction: column;
+  right: 0;
+}
+
+.button-doctrine {
+    margin-top: 30px;
+    padding: 0px;
+    width: 80%;
+    border: 1.2rem, solid, #0b0b0b;
+    border-radius: 60px;
+    cursor: pointer;
+    background-color: rgba(0,0,0,0);
+    text-align: center;
+    display: flex;
+    position: relative;
+    transition: transform 0.6s ease, box-shadow 0.4s ease;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.joinbtn {
+    font-size: 1.5rem;
+    text-decoration: none;
+    font-family: var(--button);
+    letter-spacing:1px;
+    color:rgba(245, 230, 200, 0.7);
+    background-color: rgba(106, 52, 88, 0.5);
+    border-radius:10px;
+    text-align: center;
+    padding: 12px;
+    width: 26%;
+    margin-left: 37%;
+}
 
 /* ***** DIRECTORY CARDS***** */
 
@@ -736,8 +781,6 @@ h1 {
   margin-left: 5%;
   margin-right: 5%;
 }
-
-
 
 
 

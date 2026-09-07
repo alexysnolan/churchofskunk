@@ -12,40 +12,53 @@
   </head>
 
 <header>
-  <img src="PHOTOS/BRANDED/welcome.png" width="100%" height="auto">
+  <a href="/COMMUNITY/join.html">
+   <picture>
+    <source
+        media="(max-width: 700px)"
+        srcset="PHOTOS/BRANDED/mobilewelcome.png" width="100%">
+    <img
+        src="PHOTOS/BRANDED/welcome.png"
+        width="100%"
+        alt="Welcome to Church of Skunk">
+  </picture>
+  </a>
+</header>
+
+<!--NAV BAR-->
   <div id="navbar"></div>
   <div id="overlay" class="overlay"></div>
   <script src="/JAVA/navScript.js"></script>
-</header>
+
 
 <body>
 
-<!--BLURB-->
+<!--FACT GENERATOR-->
 <div class="intro">
-  <div class="blurb">
-  <h1> Join the congregation</h1>
-  <ul class="responsive-text">
-    <li class="responsive-text"> We follow the Sacred Scent and Stripe of Skunk, who is our boundlessly benevolent creator. Skunk's mercy, pity, patience, bounty, grace, and love guide us on a path of holy existence. </li><br/>
-    <li class="responsive-text">Our organization, Church of Skunk, is a polytheistic custom religion (aka "cult") dedicated to worshipping Skunk and other deities of your choice. </li>
-   <li> <h2><a href="./COMMUNITY/join.html" class="a"> Click here to join Church of Skunk Now →</a>
-   </h2></li>
-  </ul>
-
-  </div>
-  
-  <!--FACT GENERATOR-->
   <div class="facts">
     <p class="generatefact">Generate Skunk Fact</p>
     <div id="containerFacts">
       </div>
-    <button id="btnfact" class="buttonFacts" onclick="showRandomFact()"><img src="./PHOTOS/BRANDED/skunkfacts.png" width="100%" alt="skunk"></button>  
-         <div class="containerFacts">
-        <div id="factBox">click or tap on skunk above &#x2934;
+      <div class="containerFacts">
+        <div id="factBox">click or tap on skunk below &#x2935;
         </div>
-    <script src="/JAVA/myScript.js"></script>
-    </div>
+      <script src="/JAVA/myScript.js"></script>
+      </div>
+    <button id="btnfact" class="buttonFacts" onclick="showRandomFact()"><img src="./PHOTOS/BRANDED/skunkfacts.png" width="100%" alt="skunk" style="border-radius:40px;"></button>  
+
   </div>
+
+<!--READ THE DOCTRINE-->
+<div class="facts">
+  <p class="generatefact">READ THE DOCTRINE</p>
+  <div class="containerFacts">learn about skunks holy word</div>
+
+  <div class="read-doctrine">
+<div class="buttonFacts"><a href="/ABOUT/doctrine.html"><img src="./PHOTOS/read-doctrine.png" width="100%" alt="doctrine" style="border-radius:40px;"></a></div>
 </div>
+</div>
+</div>
+
 
 
 <!--DIRECTORY CARDS-->
@@ -98,6 +111,8 @@
   
   </ul>
 </section>
+
+
 
 
 <!--PRAYER ANSWERS GENERATOR

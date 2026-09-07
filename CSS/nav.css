@@ -1,8 +1,16 @@
+#navbar {
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+    width: 100%;
+}
+
 .navigation {
-  top:0;
-  z-index:9999;
-  min-height: 60px;
-  background: #0b0b0b;
+    width: 100%;
+    min-height: 60px;
+    background: #0b0b0b;
+    border-bottom: 1px solid #8c6a1c;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.65);
 }
 
 /* *****TOP NAV BAR***** */
@@ -30,21 +38,19 @@
     text-decoration: none;
     font-family: "Merriweather", sans-serif; 
     font-weight: 400;
-    font-size: 0.8rem;
+    font-size: 1.2rem;
     letter-spacing: 1px;
     padding: 10px 14px;
     border-radius: 6px;
     border: none;
-    transition: background-color 0.3s ease;
+    transition: 0.3s ease;
 }
 
-.nav-links a:hover 
-.dropbtn a:hover {
+.nav-links a:hover, .dropbtn a:hover {
     background-color: #8c6a1c;
 }
 
 .dropdown {
-
     position: relative;
 }
 
@@ -67,6 +73,8 @@
 
 
 
+
+
 /* *****HAMBURGER***** */
 
   /* off-screen-menu */
@@ -75,6 +83,7 @@
     height: 100vh;
     width: 70%;
     max-width: 450px;
+    z-index: 100;
     position: fixed;
     top: 0;
     right: -450px;
@@ -85,6 +94,7 @@
     text-align: left;
     font-size: 2rem;
     transition: .3s ease;
+    z-index: 100;
 }
 .off-screen-menu.active {
     right: 0;
@@ -98,11 +108,12 @@ nav {
     padding: 0.5rem;
     display: flex;
     background-color: rgba(11, 11, 11, 0.9);
-    width: 3%;
+    width: 80%;
     min-width: 40px;
     position: absolute;
-    right: 0;
+    margin-left: 10%;
     top: 0;
+    z-index: 99;
 }
 
 
@@ -110,8 +121,8 @@ nav {
 
 /* HAMBURGER APPEARANCE */
 .ham-menu {
-    height: 35px;
-    width: 50px;
+    height: 40px;
+    width: 100%;
     margin-left: auto;
     position: relative;
     background-color: rgba(11, 11, 11, 0.1);
@@ -202,7 +213,6 @@ li {
   font-size: 1.8rem;
 }
 
-
 .overlay {
   position: fixed;
   top: 0;
@@ -213,17 +223,12 @@ li {
   opacity: 0;
   pointer-events: none;
   transition: opacity 0.3s ease;
-
   z-index: 5;
 }
 
 .overlay.active {
   opacity: 1;
   pointer-events: all;
-}
-
-.off-screen-menu {
-  z-index: 10;
 }
 
 
