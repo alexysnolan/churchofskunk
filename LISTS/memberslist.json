@@ -3,88 +3,113 @@
     "displayname": "Lex N.",
     "council":"Founder, Website Admin",
     "about": "Lex was inspired to create this website in an effort to spread the word of Skunk and to teach herself how to code.",
-    "joindate": "2024-09-12"
+    "joindate": "2024-09-12",
+    "convertedby": "Founder"
   },
   {
     "displayname": "Jonny L.",
     "council": "Founder",
-    "joindate": "2024-09-12"
+    "joindate": "2024-09-12",
+    "convertedby": "Founder"
   },
     {
     "displayname": "Sam D.",
     "council": "Mouthpiece of the Almighty Skunk",
-    "joindate": "2026-02-25"
+    "joindate": "2026-02-25",
+    "convertedby": "Lex"
   },
     {
     "displayname": "Angel Princess Baby",
-    "joindate": "2026-02-09"
+    "joindate": "2026-02-09",
+    "convertedby": "Lex"
   },
     {
     "displayname": "Rusty Shackleford",
-    "joindate": "2026-04-05"
+    "joindate": "2026-04-05",
+    "convertedby": "Angel Princess Baby"
   },
     {
     "displayname": "Kentucky Tim",
-    "joindate": "2025-06-29"
+    "joindate": "2025-06-29",
+    "convertedby": "Lex"
   },
     {
     "displayname": "Tiffany McKee",
-    "joindate": "2026-03-29"
+    "joindate": "2026-03-29",
+    "convertedby": "Sam"
   },
   {
     "displayname": "The Crawdaddy",
-    "joindate": "2026-03-29"
+    "joindate": "2026-03-29",
+    "convertedby": "Sam"
   },
     {
     "displayname": "Calcifer",
-    "joindate": "2026-02-02"
+    "joindate": "2026-02-02",
+    "convertedby": "Aidan R."
   },
   {
     "displayname": "Jeremiah King",
-    "joindate": "2025-12-13"
+    "joindate": "2025-12-13",
+    "convertedby": "Lex"
   },
   {
     "displayname": "Kendra Beavin!!!",
-    "joindate": "2026-01-02"
+    "joindate": "2026-01-02",
+    "convertedby": "Lex"
   },
   {
     "displayname": "Jacob Rickey",
-    "joindate": "2026-01-12"
+    "joindate": "2026-01-12",
+    "convertedby": "Lex"
   },
   {
     "displayname": "Skunky Jay O.",
-    "joindate": "2026-02-02"
+    "joindate": "2026-02-02",
+    "convertedby": "Lex"
   },
   {
     "displayname": "Derek",
-    "joindate": "2026-02-21"
+    "joindate": "2026-02-21",
+    "convertedby": "Lex"
   },
   {
     "displayname": "Duchess Nicole of the Woodland Creatures",
-    "joindate": "2026-04-29"
+    "joindate": "2026-04-29",
+    "convertedby": "Lex"
   },
   {
     "displayname": "His Most Illustrious and Serene Grace, Duke Anup of the Buckeye Lake Region, Keeper of the Shoreline",
-    "joindate": "2026-04-30"
+    "joindate": "2026-04-30",
+    "convertedby": "Duchess Nicole of the Woodland Creatures"
   },
   {
     "displayname": "MoFo",
-    "joindate": "2026-05-30"
+    "joindate": "2026-05-30",
+    "convertedby": "Sam"
   },
   {
     "displayname": "Ellie Z.",
     "council": "Coordinator",
     "about": "",
-    "joindate": "2024-12-31"
+    "joindate": "2024-12-31",
+    "convertedby": "Lex"
   },
   {
     "displayname": "Aidan R.",
     "council": "Finance Director",
     "about": "",
-    "joindate": "2025-08-01"
+    "joindate": "2025-08-01",
+    "convertedby": "Lex"
   },
   {
     "displayname": "Valerie G",
-    "joindate": "2026-08-15"
-  }
+    "joindate": "2026-08-15",
+    "convertedby": "Aidan R."
+  },
+  {
+    "displayname": "Dale",
+    "joindate": "2024-12-31",
+    "convertedby": "Lex"
+}
 ]
