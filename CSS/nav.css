@@ -46,10 +46,6 @@
     transition: 0.3s ease;
 }
 
-.nav-links a:hover, .dropbtn a:hover {
-    background-color: #8c6a1c;
-}
-
 .dropdown {
     position: relative;
 }
