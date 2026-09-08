@@ -190,6 +190,8 @@ h1 {
     font-family: var(--heading);
     text-align: justify;
     font-size: 1.1rem;
+    letter-spacing: 1px;
+    font-style: 500;
 }
 
 .read-doctrine {
@@ -409,6 +411,15 @@ h1 {
 
 
 /* *****FAQ COLLAPSIBLE CONTAINER***** */
+
+.faq-section-titles {
+  margin-left: 11%;
+  text-align: left;
+  font-family: var(--paragraph);
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+  color:var(--amethyst-glow);
+}
 
 .collapsible-container {
   margin-left:6%;
