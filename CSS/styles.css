@@ -70,7 +70,27 @@ h1 {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 1.5rem;
+}
 
+.sidebar {
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: left;
+    background-color: none;
+    border-radius: 40px;
+    display: grid;
+    grid-template-columns: 80% 20%;
+    gap: 0.5rem;
+}
+
+.page-columns {
+  display: grid;
+  border: 2px, solid, #0b0b0b;
+  padding: 12px 12px;
+  border-radius: 40px;
+  flex-direction: column;
 }
 
 .blurb {
@@ -183,9 +203,7 @@ h1 {
 /* *****DOCTRINE***** */
 
 .doctrine {
-    margin-left: 5%;
-    margin-right: 5%;
-    padding-top: 40px;
+    margin-left: 3%;
     color:#8c6a1c;
     font-family: var(--heading);
     text-align: justify;
@@ -629,8 +647,6 @@ h1 {
 }
 
 .backbtn {
-    position: inline;
-    margin-left:5%;
     font-size: 1.5rem;
     text-decoration: none;
     font-family: var(--button);

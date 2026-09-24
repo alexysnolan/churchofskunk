@@ -32,40 +32,31 @@ async function loadDeity() {
 
 //new
 let sayingsHTML = "";
-
 deity.sayings.forEach(saying => {
-
     sayingsHTML += `
         <h3 class="deity-subtitle">${saying.phrases.join(" / ")}</h3>
         <p><i>${saying.meaning}</i></p>
     `;
-
 });
 
 let ritualsHTML = "";
-
 deity.rituals.forEach(ritual => {
-
     ritualsHTML += `
         <h3 class="deity-subtitle">${ritual.title.join(" / ")}</h3>
         <p>${ritual.practice}</p>
     `;
-
 });
 
 
     document.getElementById(
         "deityContainer"
     ).innerHTML = `
-
         <h1 class="alt-section-title">${deity.name}</h1>
-
         <img
             id="deitypic" 
             src="${deity.image}"
             alt="${deity.name}"
         >
-        
         <div class="deity-description">
         <h2 class="card-title">About</h2>
         <p>${deity.description}</p>
