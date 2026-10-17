@@ -206,7 +206,7 @@ h1 {
     margin-left: 3%;
     color:#8c6a1c;
     font-family: var(--heading);
-    text-align: justify;
+    text-align: left;
     font-size: 1.1rem;
     letter-spacing: 1px;
     font-weight: 600;
