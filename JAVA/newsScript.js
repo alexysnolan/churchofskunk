@@ -1,7 +1,7 @@
 // NEWS PULL FOR FRONT PAGE
 async function loadLatestNews() {
     try {
-        const response = await fetch("../LISTS/monthlyUpdates.json");
+        const response = await fetch("../LISTS/monthlyupdates.json");
         if (!response.ok) {
             throw new Error(`HTTP error: ${response.status}`);
         }
