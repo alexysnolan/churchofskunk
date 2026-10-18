@@ -139,7 +139,10 @@ if (update.content?.length) {
 }
 
 
-loadLatestNews();
+// Run homepage news only when homepage container exists
+if (document.getElementById("latest-news")) {
+    loadLatestNews();
+}
 
 
 // ---------------------------------
@@ -734,4 +737,9 @@ function createArchiveCard(update) {
 // START
 // ---------------------------------
 
-loadNewsPage();
+
+
+// Run full news page only when news-page container exists
+if (document.getElementById("featured-news")) {
+    loadNewsPage();
+}
