@@ -19,6 +19,7 @@ h1 {
 
 .center {
   text-align:center;
+  margin-top: 5px;
 }
 
 /* *****COLORS*****  */
@@ -56,6 +57,27 @@ h1 {
 }
 
 
+/* *****SCREEN SIZE CHANGES***** */
+.large-screens {
+  width: 100%;
+}
+
+@media (max-width: 615px) {
+    .large-screens {
+      display: none;
+    }
+}
+
+@media (min-width: 616px) {
+    .mobile-only, {
+        display: none;
+    }
+}
+
+.responsive-text {
+  /* Minimum: 1.5rem, Fluid target: 5vw of screen, Maximum: 4rem */
+  font-size: clamp(1.5rem, 5vw, 1.7rem); 
+}
 
 /* *****JOIN THE CONGREGATION***** */
 .intro {
@@ -106,18 +128,29 @@ h1 {
     
 }
 
-.responsive-text {
-  /* Minimum: 1.5rem, Fluid target: 5vw of screen, Maximum: 4rem */
-  font-size: clamp(1.5rem, 5vw, 1.7rem); 
-}
+
 
 /* *****FACTS***** */
 
+.two-columns {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+    margin: 2rem 1rem 2rem 1rem;
+}
+
+@media (max-width: 1050px) {
+    .two-columns {
+        grid-template-columns: 1fr;
+    }
+}
+
 .facts {
   display: grid;
-  border: 2px, solid, #0b0b0b;
   padding: 12px 12px;
   border-radius: 40px;
+  max-width: 60%;
+  margin-left: 20%;
   flex-direction: column;
 }
 
@@ -125,7 +158,8 @@ h1 {
     margin-top: 30px;
     margin-bottom: 30px;
     padding: 0px;
-    width: 100%;
+    max-width: 100%;
+    height:auto;
     border: 1.2rem, solid, #0b0b0b;
     border-radius: 60px;
     cursor: pointer;
@@ -152,6 +186,8 @@ h1 {
     }
 }
 
+
+
 .containerFacts {
     width: 100%;
     margin-top: 0px;
@@ -168,7 +204,7 @@ h1 {
 .factBox {
     width:100%;
     color:#000000;
-    margin: auto;
+    margin: 0px;
     text-align: center;
     animation: fact-fade 2s ease-in-out forwards;
 }
@@ -176,6 +212,7 @@ h1 {
 .btnfact {
     text-align: center;
     -webkit-tap-highlight-color: transparent;
+    max-width: 60%;
 }
 
 .buttonFacts:hover, .photo-slides:hover {
@@ -253,9 +290,10 @@ h1 {
 /* ***** DIRECTORY CARDS***** */
 
 .directory {
-    padding-left: 30px;
-    padding-right: 30px;
-    padding-bottom: 100px;
+  width: 100%;
+  display:grid;
+  justify-content: center;
+  padding-bottom: 10px;
 }
 
 .section-title {
@@ -280,6 +318,94 @@ h1 {
     align-items: stretch;
 }
 
+.home-card-grid {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    gap:10px 10px;
+    grid-template-columns: 1fr;
+    align-items: stretch;
+    max-width: 95%;
+    margin-left: 2.5%;
+}
+
+.mobile-grid-cards {
+  transition: transform 0.6s ease;
+  margin-bottom: 0px;
+  max-width: 615px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.mobile-card-grid {
+  list-style: none;
+  display: grid;
+  grid-template-columns: 25% 75%;
+  align-items: stretch;
+  position: relative;
+  text-align: center;
+  padding: 10px 0px 0px 0px;
+  background-color:rgba(212, 175, 55, 0.05);
+  border: 0px solid rgba(212, 175, 55, 0.5);
+  border-radius: 8px;
+  width: 100%;
+  flex-direction: column;
+  margin-top: 0px;
+  animation-name: innerGlow;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+  transition: transform 0.6s ease;
+}
+
+.mobile-card-container {
+  text-align: left;
+  margin-left: 40px;
+}
+
+.mobile-card-title {
+  color: #d4af37;
+  font-family: var(--heading);
+  font-size: 1.5rem;
+  margin-top: 10px;
+  margin-bottom: 0px;
+
+}
+.mobile-card-text {
+    color:#8c6a1c;
+    font-family: var(--paragraph);
+    font-size: 0.9rem;
+    font-style: italic;
+    margin-top: 10px;
+    margin-right: 30px;
+}
+
+.mobile-card-image {
+  width: 100%;
+  margin-left: 20px;
+  text-align: center;
+}
+
+@media (min-width:1050px) {
+  .mobile-card-grid {
+    display: none;
+  }
+}
+
+@media (max-width: 1050px) {
+    .home-card-grid {
+    display: none;
+    }
+}
+    
+
+@media (min-width: 701px) {
+    .home-card-grid {
+      grid-template-columns: repeat(5, minmax(0, 1fr))
+    }
+}
+
+
 @media (min-width: 600px) {
     .card-grid {
       grid-template-columns: repeat(2, minmax(0, 1fr))
@@ -292,6 +418,9 @@ h1 {
     }
 }
 
+
+
+
 .card-item {
     display: flex;
 }
@@ -299,21 +428,23 @@ h1 {
 .card {
     position: relative;
     text-align: center;
-    padding: 50px 30px;
-    background-color: #0b0b0b;
+    padding: 50px 5px;
+    background-color:rgba(212, 175, 55, 0.05);
     border: 0px solid rgba(212, 175, 55, 0.5);
     border-radius: 8px;
     width: 100%;
     flex-direction: column;
     animation-name: innerGlow;
-    animation-duration: 10s;
+    animation-duration: 7s;
     animation-iteration-count: infinite;
     transition: transform 0.6s ease;
+    overflow:hidden;
 }
 
-.card:hover {
-  transform: translateY(-5px); 
+.card:hover, .mobile-grid-cards:hover {
+  transform: translateY(-10px); 
 }
+
 
 .card-link {
     font-size: 1.5rem;
@@ -321,10 +452,12 @@ h1 {
     font-family: var(--button);
     letter-spacing:1px;
     color:rgba(245, 230, 200, 0.7);
-    background-color: rgba(106, 52, 88, 0.5);
-    border-radius:10px;
     text-align: center;
+    /*
     padding: 12px;
+    border-radius:10px;
+    background-color: rgba(106, 52, 88, 0.5);
+    */
 }
 
 .card-link::after {
@@ -342,18 +475,25 @@ h1 {
     color: #d4af37;
     font-family: var(--heading);
     font-size: 2rem;
+    margin-top: 10px;
 }
 
 .card-text {
     color:#8c6a1c;
     font-family: var(--paragraph);
-    font-size: 1.5rem;
+    font-size: 1rem;
     font-style: italic;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: -10px;
+    margin-bottom: 0px;
 }
+
 
 .card-image {
     width: 50%;
     margin: 0px;
+    text-align: center;
 }
 
 .deity-card-image {
@@ -503,6 +643,333 @@ h1 {
 
 
 
+/* *****NEWS****** */
+/* -------Home page------*/
+.church-updates-container {
+  max-width: 100%;
+
+  margin-bottom: 20px;
+  margin-top: 20px;
+  background-color: rgba(233, 229, 235, 0.1);
+  padding: 10px 20px 10px 20px;
+  border-radius: 4%;
+  flex-direction: column;
+}
+
+.center-subtitle {
+  margin-bottom: 1rem;
+  font-family: var(--paragraph);
+  font-size: 1.3rem;
+  text-align: center;
+  color: var(--ivory-glow);
+  text-shadow: 1px 1px 4px #8c6a1c;
+  font-weight: 400;
+
+}
+#latest-news h2 {
+  margin-bottom: 1rem;
+  font-family: var(--paragraph);
+  font-size: 1.2rem;
+  text-align: left;
+  color: var(--ivory-glow);
+  text-shadow: 1px 1px 4px #8c6a1c;
+  font-weight: 400;
+}
+.news-content {
+    font-family: "Montserrat", sans-serif;
+    font-size: 0.8rem;
+    line-height: 1.3;
+    color: var(--ivory-glow);
+}
+.news-content p {
+    margin-bottom: 1rem;
+}
+.news-images {
+    gap: 1rem;
+    justify-content: center;
+    flex-wrap: wrap;
+    display: flex;
+    margin: 1rem 0 1.5rem 0;
+}
+.news-image {
+    max-width: 50%;
+    width: auto;
+    height: auto;
+    border-radius: 8px;
+    max-height: 200px;
+}
+
+
+.news-links {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 1.5rem;
+}
+.news-button {
+    display: inline-block;
+    padding: 0.3rem 0.5rem;
+    background-color: var(--shadow-brown);
+    color: var(--burnished-antique-gold);
+    text-decoration: none;
+    font-family: var(--button);
+    border: 1px solid var(--midnight-black);
+    border-radius: 5px;
+    font-size: 0.8rem;
+}
+
+.news-button:hover {
+    color: var(--ivory-glow);
+}
+
+.news-content {
+    position: relative;
+}
+
+
+.read-more-button {
+  background: none;
+  border: none;
+  font-style: italic;
+  text-align: right;
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: #d4af37;
+  cursor: pointer;
+}
+
+.read-more-button:hover {
+    color: #ffd700;
+    text-decoration: underline;
+}
+
+.extra-news-content {
+    display: none;
+}
+
+/* ---------------------------
+   NEWS PAGE
+--------------------------- */
+.news-page {
+    width: 95%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+
+/* MAIN FEATURED + RECENT LAYOUT */
+.news-main-layout {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 2rem;
+    align-items: start;
+    background-color: rgba(166, 120, 195, 0.1);
+    padding: 20px 20px 20px 20px;
+    border-radius: 1%;
+}
+
+
+/* ---------------------------
+   FEATURED NEWS
+--------------------------- */
+.featured-news {
+    min-width: 0;
+}
+
+.featured-news h1 {
+    font-family: "Cinzel Decorative", serif;
+    margin-top: 0;
+    color: var(--ivory-glow);
+}
+
+.news-date {
+    font-family: "Montserrat", sans-serif;
+    font-size: 0.9rem;
+    opacity: 0.75;
+    margin-bottom: 1rem;
+    color: var(--antique-gold);
+    font-weight: 500;
+    text-align: center;
+}
+
+
+
+/* ---------------------------
+   RECENT NEWS SIDEBAR
+--------------------------- */
+.recent-news-section {
+    min-width: 0;
+    padding: 20px;
+    color: var(--ivory-glow);
+    background-color: rgba(11,11,11,0.9);
+    border-radius: 5%;
+}
+
+.recent-news-heading {
+    font-family: "Cinzel Decorative", serif;
+    margin-top: 0;
+}
+
+
+/* INDIVIDUAL CARD */
+.recent-news-card {
+    border-bottom: 1px solid rgba(212, 175, 55, 0.4);
+    padding: 1rem 0;
+}
+
+.recent-news-summary {
+    display: grid;
+    grid-template-columns: 110px 1fr;
+    gap: 1rem;
+    cursor: pointer;
+    align-items: center;
+}
+
+.recent-news-thumbnail {
+    width: 110px;
+    height: 90px;
+    object-fit: cover;
+}
+
+.recent-news-card h3 {
+    margin: 0 0 0.4rem 0;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1rem;
+    color: var(--antique-gold);
+}
+
+.recent-news-card .news-date {
+    margin: 0;
+}
+
+
+/* EXPANDED CARD CONTENT */
+.recent-news-expanded {
+    display: none;
+    padding-top: 1rem;
+}
+
+.recent-news-card.expanded .recent-news-expanded {
+    display: block;
+}
+
+.recent-news-card.expanded .recent-news-summary {
+    margin-bottom: 0.5rem;
+}
+
+.card-toggle {
+    margin-top: 0.5rem;
+    font-family: "Montserrat", sans-serif;
+    font-size: 0.85rem;
+    color: #d4af37;
+}
+
+
+/* ---------------------------
+   ARCHIVE / LOAD MORE AREA
+--------------------------- */
+.news-archive-preview {
+    margin-top: 4rem;
+    color:#8c6a1c;
+}
+
+.news-archive-preview > h2 {
+    font-family: "Cinzel Decorative", serif;
+    text-align: center;
+}
+
+.news-archive-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+    margin-top: 2rem;
+}
+
+
+/* ARCHIVE CARD */
+.archive-news-card {
+    border: 1px solid rgba(212, 175, 55, 0.35);
+    padding: 1rem;
+    cursor: pointer;
+}
+
+.archive-thumbnail {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+    margin-bottom: 1rem;
+}
+
+.archive-news-card h3 {
+    font-family: "Montserrat", sans-serif;
+    margin: 0 0 0.5rem 0;
+}
+
+.archive-news-expanded {
+    display: none;
+    margin-top: 1rem;
+}
+
+.archive-news-card.expanded .archive-news-expanded {
+    display: block;
+}
+
+
+/* LOAD MORE BUTTON */
+.load-more-news {
+    display: block;
+    margin: 2rem auto 0 auto;
+    padding: 0.8rem 1.5rem;
+    background-color: #6a3458;
+    color: #f5e6c8;
+    border: 1px solid #d4af37;
+    border-radius: 4px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.load-more-news:hover {
+    background-color: #5a3a6b;
+    color: #ffd700;
+}
+
+
+/* ---------------------------
+   TABLET / MOBILE
+--------------------------- */
+
+@media (max-width: 800px) {
+    .news-main-layout {
+        grid-template-columns: 1fr;
+    }
+    .recent-news-section {
+        margin-top: 2rem;
+    }
+    .news-archive-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+
+@media (max-width: 550px) {
+    .news-page {
+        padding: 1rem;
+    }
+    .recent-news-summary {
+        grid-template-columns: 90px 1fr;
+    }
+    .recent-news-thumbnail {
+        width: 90px;
+        height: 75px;
+    }
+    .news-archive-grid {
+        grid-template-columns: 1fr;
+    }
+}
 
 /* *****DEITIES AND NEWS PAGE SLIDE SHOW CONTAINER***** */
 
@@ -510,13 +977,17 @@ h1 {
     margin-left:10%;
     margin-right:10%;
     margin-top:50px;
-    border: 10px solid rgba(106, 52, 88, 0.2);
-    background-color: rgba(106, 52, 88, 0.3);
+    max-width: 95%;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  position: relative;
+    background-color:#f2f2f2;
+    padding: 10px;
 }
 
 /*{box-sizing:border-box}*/
 
-/* Slideshow container */
+/* *****Slideshow container***** */
 .slideshow-container {
   width: 100%;
   position: relative;
@@ -591,6 +1062,9 @@ h1 {
   text-shadow: 4px 4px 4px #000000;
   letter-spacing: 4px;
 }
+
+
+
 
 
 /* *****DEITIES DESIGN***** */

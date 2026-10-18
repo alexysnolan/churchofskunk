@@ -29,7 +29,7 @@
 "rituals": [
         {
         "title": ["The Great Hibernation"],
-        "practice": ["Church members celebrate The Great Hibernation every January and February. Late fall and early winter months are spent preparing for the Hibernation by feasting and hoarding necessary supplies. Then, on January first, The Great Hibernation begins. Those who celebrate the holiday begin increasing the length of their nightly slumbers, and engaging in more and more naps as the days pass. The holiday reaches its peak on the last day of January, when practitioners gather together for a collective day of non-stop napping - a practice that ushers in a new age of peace and quiet. Thereafter, church members will continue high levels of snoozing in daily life, but will gradually decrease the naps and length of sleeps until returning to normal sleep patterns in the middle of February as Spring Awakening begins."]
+        "practice": ["Church members celebrate The Great Hibernation every January and February. Late fall and early winter months are spent preparing for the Hibernation by feasting and hoarding necessary supplies. Then, on January first, The Great Hibernation begins. Those who celebrate the holiday begin increasing the length of their nightly slumbers, and engaging in more and more naps as the days pass. The holiday reaches its peak on the last day of January, when practitioners gather together for a collective day of non-stop napping and other lazy activities - a practice that ushers in a new year of peace and quiet. Thereafter, church members will continue high levels of snoozing in daily life, but will gradually decrease the naps and length of sleeps until returning to normal sleep patterns in the middle of February as Spring Awakening begins (Please note that skunks do not technically hibernate - they enter a state of Torpor which they wake from occasionally...No one knows about Torpor except mammal biologists so we just decided to call it The Great Hibernation instead)."]
         },
         {
         "title": ["Annointing"],
@@ -78,6 +78,9 @@
         {
         "title": ["Nutting"],
         "practice": ["Hazel was widely used throughout the centuries for protection against evil, and it has long been a favorite wood from which to make staffs. In days gone by hazelnuts would have provided a plentiful and easily stored source of protein, and they were often ground up and mixed with flour to be made into nourishing breads. Cultivated hazelnuts called filberts take their name from St Philibert’s Day on 20 August, the date by which hazelnuts were supposed to start ripening. Holy Cross Day on 14 September was traditionally given as a school holiday for children to go nutting, a custom which persisted in England until the First World War. Church of Skunk members are encouraged to go nutting."]
+        },
+        {"title": ["Divination"],
+        "practice": ["Hazelnut can be used for divining the compatibility of two people. To do this, two hazelnuts are roasted near a fire; one named for the person roasting them and the other for the person they desire. If the nuts jump away from the heat, it is a bad sign, but if the nuts roast quietly, it foretells of an excellent match."]
         }],
 "associations": "Omens, intuitions, protective charms, dreams, spoken incantations"
 },

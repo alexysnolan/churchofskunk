@@ -1,0 +1,53 @@
+[ 
+    {
+        "date": "2026-10-01",
+        "title": "This Month: Get Ready to Celebrate Samhain",
+        "tags": ["Samhain", "Holiday", "Celebration", "Badb"],
+        "content": [
+            "Samhain is a traditional Gaelic holiday that is connected to the Church of Skunk deity Badb. It occurs annually on October 31 and November 1.",
+            "During Samhain, the boundary between the living world and the Otherworld is at its weakest. This may allow our world to have contact with the spirits and fae, which were traditionally appeased with offerings of food and drink. The souls of dead kin were also thought to revisit their homes seeking hospitality, and a place was set at the table for them during a meal. Because of this, it was traditional to celebrate Samhain by feasting.",
+            "In Church of Skunk, it is traditional to honor the dead by placing their photo on Badb's altar and lighting a candle. Others celebrate by lighting bonfires, which are said to have cleansing powers, or by attempting divination and communicating with the spirits."
+        ],
+        "links":  [{
+            "url": "https://en.wikipedia.org/wiki/Samhain",
+            "name": "Samhain Wikipedia" 
+            },
+            {
+            "url": "https://churchofskunk.com/ABOUT/deity.html?id=morrigan",
+            "name": "Read about Badb" 
+            }
+        ],
+        "images": [ {
+            "url": "../PHOTOS/NEWS/UPDATES/samhain1.png",
+            "name": "Samhain Celebrations" 
+            },
+            {
+            "url": "../PHOTOS/BRANDED/morrigan.png",
+            "name": "Badb (of the Morrigan)"
+            }
+        ]
+    },
+    {
+        "date": "2026-09-01",
+        "title": "Two year Anniversary of Church of Skunk!",
+        "tags": ["History", "Skunk Seconds"],
+        "content": [
+            "Church of Skunk began on September 12, 2024, when the two founders watched the sacred Skunk Seconds series on YouTube.",
+            "They immediately felt skunks blessings upon them and were inspired to spread the good Word of Skunk."
+        ],
+        "links":  [{
+            "url": "Read about the Church Origins",
+            "name": "https://churchofskunk.com/ABOUT/origins.html" 
+            },
+            {
+            "url": "https://www.youtube.com/playlist?list=PL7tOllzEIb0Eaej-wj-KqGSerKXb1t-Dy",
+            "name": "Watch Skunk Seconds"    
+            }
+        ],
+        "images": [ {
+            "url": "../PHOTOS/skunksec.png",
+            "name": "Skunk Seconds Series" 
+            }
+        ]
+    }
+]
