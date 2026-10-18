@@ -33,48 +33,151 @@
 
 <body>
 
-<!--FACT GENERATOR-->
-<div class="intro">
-  <div class="facts">
-    <p class="generatefact">Generate Skunk Fact</p>
-    <div id="containerFacts">
+<!--TOP OF PAGE CONTENT-->
+<!------CHURCH UPDATES
+  <li class="card-item">
+    <article class="card">
+      <div class="facts">
+        <h2 class="alt-section-title">LATEST NEWS</h2>
+        <div id="latest-news"></div>
+        <script src="./JAVA/newsScript.js"></script>
       </div>
-      <div class="containerFacts">
-        <div id="factBox">click or tap on skunk below &#x2935;
-        </div>
-      <script src="/JAVA/myScript.js"></script>
-      </div>
-    <button id="btnfact" class="buttonFacts" onclick="showRandomFact()"><img src="./PHOTOS/BRANDED/skunkfacts.png" width="100%" alt="skunk" style="border-radius:40px;"></button>  
+      <a href="/ABOUT/faq.html" class="card-link"></a>
+    </article>
+  </li>-->
 
+<!--STANDALONE VERSION OF THESE COMPONENTS-->
+  <!--READ THE DOCTRINE
+    <h2 class="alt-section-title">READ THE DOCTRINE</h2>
+        <p class="center-subtitle">learn about skunks holy word</p>
+      <div class="read-doctrine">
+        <div class="buttonFacts"><a href="/ABOUT/doctrine.html"><img src="./PHOTOS/read-doctrine.png" width="50%" alt="doctrine" style="border-radius:40px;"></a></div>
+      </div>-->
+  <!--CHURCH UPDATES
+  <div class="facts">
+    <h2 class="alt-section-title">LATEST NEWS</h2>
+    <div id="latest-news"></div>
+    <script src="./JAVA/newsScript.js"></script>
+  </div>-->
+
+
+<section class="directory">
+<!--MOBILE CARDS-->
+
+  <h2 class="alt-section-title">Find your path</h2>
+
+
+<div class="mobile-grid-cards">
+  <ul class="mobile-card-grid">
+    <li class="card-item">
+      <div class="card-image-wrapper">
+          <img src="/PHOTOS/BRANDED/icon-doctrine.png" alt="faqicon" class="mobile-card-image">
+      </div></li>
+    <li class="card-item">
+      <div class="mobile-card-container">
+      <h3 class="mobile-card-title">OUR BELIEFS</h3>
+      <p class="mobile-card-text">Read the Church Doctrine</p>
+      </div>
+    </li>
+    <a href="/ABOUT/doctrine.html" class="card-link"></a>
+  </ul>
+</div>
+
+<div class="mobile-grid-cards">
+  <ul class="mobile-card-grid">
+    <li class="card-item">
+      <div class="card-image-wrapper">
+          <img src="/PHOTOS/BRANDED/icon-faq.png" alt="faqicon" class="mobile-card-image">
+      </div></li>
+    <li class="card-item">
+      <div class="mobile-card-container">
+      <h3 class="mobile-card-title">FAQ</h3>
+      <p class="mobile-card-text">Find answers to common questions about Skunk</p>
+      </div>
+    </li>
+    <a href="/ABOUT/faq.html" class="card-link"></a>
+  </ul>
+</div>
+
+<div class="mobile-grid-cards">
+  <ul class="mobile-card-grid">
+    <li class="card-item">
+      <div class="card-image-wrapper">
+          <img src="/PHOTOS/BRANDED/icon-deities.png" alt="deitiesicon" class="mobile-card-image">
+      </div></li>
+    <li class="card-item">
+      <div class="mobile-card-container">
+      <h3 class="mobile-card-title">DEITIES</h3>
+      <p class="mobile-card-text">Discover the deities in our Church pantheon</p>
+      </div>
+    </li>
+  </ul>
   </div>
 
-<!--READ THE DOCTRINE-->
-<div class="facts">
-  <p class="generatefact">READ THE DOCTRINE</p>
-  <div class="containerFacts">learn about skunks holy word</div>
-
-  <div class="read-doctrine">
-<div class="buttonFacts"><a href="/ABOUT/doctrine.html"><img src="./PHOTOS/read-doctrine.png" width="100%" alt="doctrine" style="border-radius:40px;"></a></div>
-</div>
-</div>
-</div>
-
-
-
-<!--DIRECTORY CARDS-->
-<section class="directory">
-  <h2 class="alt-section-title">Find your path</h2>
-  <ul class="card-grid">
+<div class="mobile-grid-cards">
+  <ul class="mobile-card-grid">
     <li class="card-item">
+      <div class="card-image-wrapper">
+          <img src="/PHOTOS/BRANDED/icon-practices.png" alt="practicesicon" class="mobile-card-image">
+      </div></li>
+    <li class="card-item">
+      <div class="mobile-card-container">
+      <h3 class="mobile-card-title">PRACTICES</h3>
+      <p class="mobile-card-text">Learn more about how to worship Skunk</p>
+      </div>
+    </li>
+    <a href="/ABOUT/practices.html" class="card-link"></a>
+  </ul>
+</div>
+
+<div class="mobile-grid-cards">
+  <ul class="mobile-card-grid">
+    <li class="card-item">
+      <div class="card-image-wrapper">
+          <img src="/PHOTOS/BRANDED/icon-community.png" alt="communityicon" class="mobile-card-image">
+      </div></li>
+    <li class="card-item">
+      <div class="mobile-card-container">
+      <h3 class="mobile-card-title">COMMUNITY</h3>
+      <p class="mobile-card-text">Learn more about our members and culture</p>
+      </div>
+    </li>
+    <a href="/COMMUNITY/members.html" class="card-link"></a>
+  </ul>
+  </div>
+
+
+  <!--DESKTOP CARDS-->
+  <!--*****************NEED TO ADD DOCTRINE TO DESKTOP!!!!!!!!!!!!!!!!!!!!-->
+
+  <ul class="home-card-grid">
+    <li class="card-item">
+      <article class="card">
+        <div class="card-image-wrapper">
+          <img src="/PHOTOS/BRANDED/icon-doctrine.png" alt="doctrineicon" class="card-image">
+        </div>
+        <h3 class="card-title">OUR BELIEFS</h3>
+        <div class="large-screens">
+          <p class="card-text">Read the church doctrine</p>
+        </div>
+        <a href="/ABOUT/doctrine.html" class="card-link"></a>
+      </article>
+    </li>
+
+
+        <li class="card-item">
       <article class="card">
         <div class="card-image-wrapper">
           <img src="/PHOTOS/BRANDED/icon-faq.png" alt="faqicon" class="card-image">
         </div>
         <h3 class="card-title">FAQ</h3>
-        <p class="card-text">Find answers to common questions about Skunk</p>
-        <a href="/ABOUT/faq.html" class="card-link">Learn More</a>
+        <div class="large-screens">
+          <p class="card-text">Find answers to common questions about Skunk</p>
+        </div>
+        <a href="/ABOUT/faq.html" class="card-link"></a>
       </article>
     </li>
+
 
     <li class="card-item">
       <article class="card">
@@ -82,8 +185,10 @@
           <img src="/PHOTOS/BRANDED/icon-practices.png" alt="skunk" class="card-image">
         </div>
         <h3 class="card-title">Practices</h3>
-        <p class="card-text">Learn more about how to worship Skunk</p>
-        <a href="/ABOUT/practices.html" class="card-link">Learn More</a>
+        <div class="large-screens">
+          <p class="card-text">Learn more about how to worship Skunk</p>
+        </div>
+        <a href="/ABOUT/practices.html" class="card-link"></a>
       </article>
     </li>
     
@@ -93,8 +198,10 @@
           <img src="/PHOTOS/BRANDED/icon-deities.png" alt="skunk" class="card-image">
         </div>
         <h3 class="card-title">Deities</h3>
-        <p class="card-text">Discover the deities in our Church pantheon</p>
-        <a href="/ABOUT/deities.html" class="card-link">Learn More</a>
+        <div class="large-screens">
+          <p class="card-text">Discover the deities in our Church pantheon</p>
+        </div>
+        <a href="/ABOUT/deities.html" class="card-link"></a>
       </article>
     </li>
     
@@ -104,28 +211,40 @@
           <img src="/PHOTOS/BRANDED/icon-community.png" alt="skunk" class="card-image">
         </div>
         <h3 class="card-title">Community</h3>
-        <p class="card-text">Learn more about our members and culture</p>
-        <a href="/COMMUNITY/members.html" class="card-link">Learn More</a>
+        <div class="large-screens">
+          <p class="card-text">Learn more about our members and culture</p>
+        </div>
+        <a href="/COMMUNITY/members.html" class="card-link"></a>
       </article>
     </li>
   
   </ul>
 </section>
 
+<div class="two-columns">
+<!------CHURCH UPDATES-->
+      <div class="church-updates-container">
+        <h2 class="alt-section-title">LATEST NEWS</h2>
+        <div id="latest-news"></div>
+        <script src="./JAVA/newsScript.js"></script>
+        <div class="center">
+        <a href="../COMMUNITY/news.html" class="news-button">See more news</a></div>
+      </div>
 
 
+<!------FACT GENERATOR-->
 
-<!--PRAYER ANSWERS GENERATOR
-  <div id="containerPrayer">
-     <div class="containerPrayer">
-        <div id="prayerBox">
-        </div>
-     </div>
-    <button id="btn" class="buttonPrayer" onclick="showRandomPrayer(); displayText()"><img src="./PHOTOS/BRANDED/holyskunk.png" width="300px" alt="holyskunk"></button>  
-    <div id="textcontainer"></div>
-    <script src="/JAVA/myScript.js"></script>
-  </div>
--->
+
+    <div class="facts">
+      <button id="btnfact" class="buttonFacts" onclick="showRandomFact()"><img src="./PHOTOS/BRANDED/skunkfacts.png" width=100%; alt="skunk" style="border-radius:40px;"></button>  
+    <div class="containerFacts">
+      <div id="factBox">click or tap on skunk above to learn a new skunk fact &#x2934;
+      </div>
+      <script src="/JAVA/myScript.js"></script>
+    </div>
+    </div>
+</div>
+
 
   <div id="footsies"></div>
   <script src="./JAVA/myScript.js"></script>

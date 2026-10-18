@@ -1,25 +1,19 @@
 //   DEITIES
 async function loadDeity() {
-
     const response =
         await fetch("../ABOUT/deities.json");
-
     const deities =
         await response.json();
-
     const params =
         new URLSearchParams(window.location.search);
-
     const deityId =
         params.get("id");
-
     const deity =
         deities.find(
             d => d.id === deityId
         );
 
     if (!deity) {
-
         document.getElementById(
             "deityContainer"
         ).innerHTML =
