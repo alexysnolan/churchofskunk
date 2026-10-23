@@ -710,11 +710,11 @@ h1 {
 .news-button {
     display: inline-block;
     padding: 0.3rem 0.5rem;
-    background-color: var(--shadow-brown);
-    color: var(--burnished-antique-gold);
+    background-color: var(--burnished-antique-gold);
+    color: var(--midnight-black);
     text-decoration: none;
     font-family: var(--button);
-    border: 1px solid var(--midnight-black);
+    border: 2px solid var(--midnight-black);
     border-radius: 5px;
     font-size: 0.8rem;
 }
