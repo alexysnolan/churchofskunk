@@ -69,7 +69,7 @@ h1 {
 }
 
 @media (min-width: 616px) {
-    .mobile-only, {
+    .mobile-only {
         display: none;
     }
 }
@@ -1315,6 +1315,10 @@ h1 {
   box-shadow: 0 0 10px 2px #8c6a1c;
   border-radius: 50%;
   margin-top: 50px;
+}
+
+.card-image-herb {
+  margin-top: 30px;
 }
 
 /* ART */
