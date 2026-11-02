@@ -28,13 +28,18 @@
 "offerings": "Skunk most highly values insect sacrifices at the altar, but Skunk also appreciates fruits, nuts, seeds, and dried flowers.",
 "rituals": [
         {
-        "title": ["The Great Hibernation"],
-        "practice": ["Church members celebrate The Great Hibernation every January and February. Late fall and early winter months are spent preparing for the Hibernation by feasting and hoarding necessary supplies. Then, on January first, The Great Hibernation begins. Those who celebrate the holiday begin increasing the length of their nightly slumbers, and engaging in more and more naps as the days pass. The holiday reaches its peak on the last day of January, when practitioners gather together for a collective day of non-stop napping and other lazy activities - a practice that ushers in a new year of peace and quiet. Thereafter, church members will continue high levels of snoozing in daily life, but will gradually decrease the naps and length of sleeps until returning to normal sleep patterns in the middle of February as Spring Awakening begins (Please note that skunks do not technically hibernate - they enter a state of Torpor which they wake from occasionally...No one knows about Torpor except mammal biologists so we just decided to call it The Great Hibernation instead)."]
-        },
-        {
         "title": ["Annointing"],
         "practice": [ "Receiving Skunks holy spray is considered an annointing. Skunk annoints worthy followers to recognize their dedication. Skunk also annoints those who have committed atrocities and have fully repented for them. Only through Skunks holy annointing can someone who has committed an atrocity be welcomed into Church of Skunk."]
-        }],
+        },
+        {
+        "title": ["Holy Herbs"],
+        "practice": ["Thus far, three Holy Herbs relating to skunk have been identified. They may be utilized in any way that honors Skunk. Recommendations include sacrificing the herb at the altar, and/or inhaling or ingesting herbs IF they are safe to do that with."]   
+        },
+        {
+        "title": ["The Great Hibernation"],
+        "practice": ["Church members celebrate The Great Hibernation every January and February. Late fall and early winter months are spent preparing for the Hibernation by feasting and hoarding necessary supplies. Then, on January first, The Great Hibernation begins. Those who celebrate the holiday begin increasing the length of their nightly slumbers, and engaging in more and more naps as the days pass. The holiday reaches its peak on the last day of January, when practitioners gather together for a collective day of non-stop napping and other lazy activities - a practice that ushers in a new year of peace and quiet. Thereafter, church members will continue high levels of snoozing in daily life, but will gradually decrease the naps and length of sleeps until returning to normal sleep patterns in the middle of February as Spring Awakening begins (Please note that skunks do not technically hibernate - they enter a state of Torpor which they wake from occasionally...No one knows about Torpor except mammal biologists so we just decided to call it The Great Hibernation instead)."]
+        }
+    ],
 "associations": "Skunk is the God of Everything except construction, corn, and some cheeses."
 },
 {
