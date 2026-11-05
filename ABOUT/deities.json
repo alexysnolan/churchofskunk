@@ -54,7 +54,7 @@
     "meaning": "Used when flying crows are observed, pertinent when outcomes of the situation are unsure"
     }],
 "description":"Macha and Badb (pronounced 'Baahv') are deities known as The Morrigan. She is a powerful shapeshifting goddess of olde, originating in Irish mythology. The Morrigan holds the most power when it comes to war and death. She is not evil in any way, she represents the storm that cannot be avoided. The Morrigan is also associated with fate and sovereignty. Gatherings of crows and ravens indicate that Badb is watching the turning of fate; her presence signals change, warning, and/or revelation.  Within Church of Skunk, she is most powerful in her fluffy black cat form (Macha) and in her crow/raven forms (Badb). Macha will curse those who display abuse of power, arrogance, or cowardice. Her most famous myth entails cursing the men of Ulster with birth pains as punishment for corruption, arrogance, and unmerciful behavior.",
-"offerings":"Macha appreciates moth and spider sacrifices at her altar.",
+"offerings":"Badb appreciates insect sacrifices and shiny objects at the altar. Macha appreciates moth and spider sacrifices at her altar.",
 "rituals": 
     [{
     "title": ["Samhain"],
@@ -94,7 +94,7 @@
 "name": "The Sun",
 "type": "Deity",
 "image": "../PHOTOS/BRANDED/sun.png",
-"symbol":"The Sun",
+"symbol":"The Sun, Sunflowers", 
 "sayings": 
     [{
     "phrases": ["The light shine on you"],
