@@ -1205,7 +1205,7 @@ h1 {
   /*min-width: 80%;*/
   height: 100%;
   /*aspect-ratio: 9 / 16; */
-  background-color: var(--ivory-glow);
+  background-color: rgba(245, 230, 200,50);
   padding-bottom: 50px;
 }
 
