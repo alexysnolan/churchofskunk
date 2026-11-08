@@ -1321,22 +1321,327 @@ h1 {
   margin-top: 30px;
 }
 
-/* ART */
+/* ***** ARTS PAGE ***** */
 
-/*trying to redo the bush thing using the home page intro div but got tired                                                                                                                                                                                                                                                                                            */
-.bush-blurb2 {
-    margin-left: 50px;
-    margin-right: 50px;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    text-align: left;
-    color:#bbb;
-    background-color: none;
-    border-radius: 40px;
+/*Arts & Culture gallery*/
+.cos-art-gallery,
+.cos-art-viewer {
+  --art-black: #0b0b0b;
+  --art-panel: #181412;
+  --art-gold: #d4af37;
+  --art-dark-gold: #8c6a1c;
+  --art-cream: #f5e6c8;
+  --art-muted: #c3b69d;
+  color: var(--art-cream);
+  font-family: Montserrat, Arial, sans-serif;
+}
+
+.cos-art-gallery {
+  max-width: 1180px;
+  margin: 2.5rem auto;
+  padding: 0 1.25rem;
+}
+
+.cos-art-heading {
+  margin: 0 0 0.6rem;
+  color: var(--art-gold);
+  font-family: "Cinzel Decorative", Georgia, serif;
+  font-size: clamp(1.5rem, 3vw, 2.3rem);
+  line-height: 1.3;
+  text-align: center;
+}
+
+.cos-art-intro {
+  max-width: 660px;
+  margin: 0 auto 1.7rem;
+  color: var(--art-cream);
+  line-height: 1.65;
+  text-align: center;
+}
+
+.cos-art-filters {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.65rem;
+  margin: 0 0 1rem;
+}
+
+.cos-art-filters[hidden],
+.cos-art-viewer [hidden] { display: none !important; }
+
+.cos-art-filter {
+  padding: 0.55rem 0.85rem;
+  border: 1px solid var(--art-dark-gold);
+  border-radius: 999px;
+  background: transparent;
+  color: var(--art-cream);
+  font: inherit;
+  font-size: 0.85rem;
+  cursor: pointer;
+  transition: background-color 150ms ease, border-color 150ms ease;
+}
+
+.cos-art-filter:hover,
+.cos-art-filter[aria-pressed="true"] {
+  border-color: var(--art-gold);
+  background: #3a2d15;
+  color: #fff4d9;
+}
+
+.cos-art-filter:focus-visible,
+.cos-art-card:focus-visible,
+.cos-art-viewer button:focus-visible,
+.cos-art-viewer a:focus-visible {
+  outline: 3px solid #ffd700;
+  outline-offset: 3px;
+}
+
+.cos-art-status {
+  min-height: 1.3em;
+  margin: 0 0 1rem;
+  color: var(--art-muted);
+  font-size: 0.84rem;
+  text-align: right;
+}
+
+.cos-art-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1.5rem;
+}
+
+.cos-art-card {
+  display: block;
+  min-width: 0;
+  width: 100%;
+  padding: 0;
+  border: 1px solid var(--art-dark-gold);
+  border-radius: 5px;
+  background: var(--art-panel);
+  color: inherit;
+  font: inherit;
+  text-align: left;
+  cursor: pointer;
+  overflow: hidden;
+  transition: border-color 180ms ease, transform 180ms ease, box-shadow 180ms ease;
+}
+
+.cos-art-card:hover {
+  transform: translateY(-3px);
+  border-color: var(--art-gold);
+  box-shadow: 0 10px 25px #0008;
+}
+
+.cos-art-thumb {
+  display: flex;
+  aspect-ratio: 4 / 5;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  background: var(--art-black);
+  overflow: hidden;
+}
+
+.cos-art-thumb img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain; /* Never crops artwork */
+}
+
+.cos-art-thumb--missing {
+  padding: 1rem;
+  color: var(--art-muted);
+  font-size: 0.85rem;
+  text-align: center;
+}
+
+.cos-art-caption {
+  display: block;
+  min-height: 5.4rem;
+  padding: 0.85rem 1rem 1rem;
+}
+
+.cos-art-title {
+  display: -webkit-box;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+  color: var(--art-cream);
+  font-size: 0.98rem;
+  font-weight: 600;
+  line-height: 1.4;
+}
+
+.cos-art-artist {
+  display: block;
+  margin-top: 0.35rem;
+  color: var(--art-gold);
+  font-size: 0.83rem;
+  line-height: 1.4;
+}
+
+.cos-art-empty {
+  grid-column: 1 / -1;
+  margin: 0;
+  padding: 2.4rem 1rem;
+  border: 1px solid var(--art-dark-gold);
+  color: var(--art-muted);
+  text-align: center;
+}
+
+/* Enlarged artwork viewer. The native dialog handles focus and Escape. */
+.cos-art-viewer {
+  box-sizing: border-box;
+  width: min(94vw, 980px);
+  max-width: 980px;
+  max-height: 92dvh;
+  padding: 0;
+  border: 1px solid var(--art-gold);
+  border-radius: 9px;
+  background: var(--art-panel);
+  box-shadow: 0 24px 70px #000b;
+  overflow: auto;
+}
+
+.cos-art-viewer::backdrop { background: #000d; }
+.cos-art-viewer * { box-sizing: border-box; }
+.cos-art-viewer__inner { padding: 1.25rem; }
+
+.cos-art-viewer__close {
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  display: block;
+  margin-left: auto;
+  margin-bottom: 0.5rem;
+  width: 2.75rem;
+  height: 2.75rem;
+  border: 1px solid var(--art-dark-gold);
+  border-radius: 50%;
+  background: #15110ff2;
+  color: var(--art-cream);
+  font-size: 1.6rem;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.cos-art-viewer__image-area {
+  display: flex;
+  min-height: 180px;
+  max-height: 58dvh;
+  align-items: center;
+  justify-content: center;
+  background: var(--art-black);
+}
+
+.cos-art-viewer__image {
+  display: block;
+  width: 100%;
+  max-height: 58dvh;
+  object-fit: contain;
+}
+
+.cos-art-viewer__image-error { color: var(--art-muted); }
+.cos-art-viewer__counter {
+  margin: 0.9rem 0 0.2rem;
+  color: var(--art-muted);
+  font-size: 0.75rem;
+}
+
+.cos-art-viewer__title {
+  margin: 0.15rem 0 0.3rem;
+  color: var(--art-gold);
+  font-family: "Cinzel Decorative", Georgia, serif;
+  font-size: clamp(1.25rem, 2.4vw, 1.8rem);
+  line-height: 1.4;
+}
+
+.cos-art-viewer__artist { margin: 0; color: var(--art-cream); }
+.cos-art-viewer__description {
+  margin: 0.8rem 0 0;
+  color: var(--art-cream);
+  line-height: 1.65;
+  white-space: pre-line;
+}
+
+.cos-art-viewer__link {
+  display: inline-block;
+  margin-top: 0.8rem;
+  color: var(--art-gold);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.cos-art-viewer__nav {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-top: 1.25rem;
+}
+
+.cos-art-viewer__nav button {
+  min-height: 44px;
+  padding: 0.55rem 1rem;
+  border: 1px solid var(--art-dark-gold);
+  border-radius: 4px;
+  background: #2a1e1a;
+  color: var(--art-cream);
+  font: inherit;
+  cursor: pointer;
+}
+
+.cos-art-viewer__nav button:hover { border-color: var(--art-gold); }
+.cos-art-viewer__nav button:disabled { opacity: 0.45; cursor: default; }
+
+@media (max-width: 850px) {
+  .cos-art-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1rem; }
+}
+
+@media (max-width: 600px) {
+  .cos-art-gallery { margin: 1.75rem auto; padding: 0 1rem; }
+  .cos-art-grid { gap: 0.75rem; }
+  .cos-art-caption { min-height: 5.25rem; padding: 0.7rem 0.65rem 0.85rem; }
+  .cos-art-title { font-size: 0.84rem; }
+  .cos-art-artist { font-size: 0.75rem; }
+  .cos-art-status { text-align: center; }
+  .cos-art-filters {
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    overflow-x: auto;
+    padding-bottom: 0.5rem;
+    scrollbar-width: thin;
+  }
+  .cos-art-filter { flex: 0 0 auto; }
+  .cos-art-viewer {
+    width: 100vw;
+    max-width: none;
+    height: 100dvh;
+    max-height: 100dvh;
+    margin: 0;
+    border: 0;
+    border-radius: 0;
+  }
+  .cos-art-viewer__inner { padding: max(0.75rem, env(safe-area-inset-top)) 1rem 1.5rem; }
+  .cos-art-viewer__image-area,
+  .cos-art-viewer__image { max-height: 50dvh; }
+  .cos-art-viewer__title { font-size: 1.3rem; }
+}
+
+@media (max-width: 340px) {
+  .cos-art-grid { grid-template-columns: 1fr; }
+  .cos-art-caption { min-height: auto; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .cos-art-filter, .cos-art-card { transition: none; }
+  .cos-art-card:hover { transform: none; }
 }
 
 
-/* old art*/
+/*bush container*/
 .bush-container {
     margin-left:20%;
     margin-right: 20%;
@@ -1349,9 +1654,18 @@ h1 {
     color: var(--burnished-antique-gold);
 }
 
+.bush-blurb2 {
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: left;
+    color:#bbb;
+    background-color: none;
+    border-radius: 40px;
+}
 
 .bush-blurb {
-
     display: grid;
     border: 2px, solid, #0b0b0b;
     padding: 12px 24px;
@@ -1364,7 +1678,6 @@ h1 {
 .bush-pic {
   border-radius: 200px;
 }
-
 
 .bush-button {
   background-color: var(--burnished-antique-gold);
@@ -1380,7 +1693,6 @@ h1 {
   color: var(--amethyst-glow);
   font-style: italic;
 }
-
 
 
 /* *****ORIGINS***** */

@@ -1,0 +1,502 @@
+[
+    {
+    "id": "art001",
+    "title": "The Light of Skunk",
+    "artist": "Chad aka ChatGPT",
+    "image": "../PHOTOS/ART/chatgpt-stainedglassskunk1.jpg",
+    "description": "Through colored glass, the ordinary skunk becomes an icon of the divine—proof that holiness can appear in even the most pungent forms.",
+    "category": "Digital Art",
+    "artistLink": "",
+    "display": "Y"
+    },
+    {
+    "id": "art002",
+    "title": "The Great Splitting",
+    "artist": "Chad aka ChatGPT",
+    "image": "../PHOTOS/ART/chatgpt-stainedglassskunk2.jpg",
+    "description": "The moment Skunk divided from One into Many, carrying a spark of Good Enoughness into the earthly world. Even the divine, it seems, believes in sharing the workload.",
+    "category": "Digital Art",
+    "artistLink": "",
+    "display": "Y"
+    },
+        {
+    "id": "art003",
+    "title": "Thirsty Skunk",
+    "artist": "Chad aka ChatGPT",
+    "image": "../PHOTOS/ART/chatgpt-thirstyskunk.jpg",
+    "description": "We spend so much time contemplating what comes out of Skunk. This work dares to ask the equally sacred question: what goes in?",
+    "category": "Digital Art",
+    "artistLink": "",
+    "display": "Y"
+    },
+    {
+    "id": "art004",
+    "title": "Badb in the Mist",
+    "artist": "Gemini",
+    "image": "../PHOTOS/ART/gemini-art-badb.jpg",
+    "description": "",
+    "category": "Digital Art",
+    "artistLink": "",
+    "display": "Y"
+    },
+        {
+    "id": "art005",
+    "title": "Skunk in the Flowers",
+    "artist": "Gemini",
+    "image": "../PHOTOS/ART/gemini-art-flowerskunk.jpg",
+    "description": "",
+    "category": "Digital Art",
+    "artistLink": "",
+    "display": "Y"
+    },
+        {
+    "id": "art006",
+    "title": "Abstract Worship",
+    "artist": "Gemini",
+    "image": "../PHOTOS/ART/gemini-art-miscabstract.jpg",
+    "description": "",
+    "category": "Digital Art",
+    "artistLink": "",
+    "display": "Y"
+    },
+        {
+    "id": "art007",
+    "title": "Monk Skunk",
+    "artist": "Gemini",
+    "image": "../PHOTOS/ART/gemini-art-monkskunk.jpg",
+    "description": "",
+    "category": "Digital Art",
+    "artistLink": "",
+    "display": "Y"
+    },
+        {
+    "id": "art008",
+    "title": "Almighty Skunk",
+    "artist": "Gemini",
+    "image": "../PHOTOS/ART/gemini-art-mountainskunk.jpg",
+    "description": "",
+    "category": "Digital Art",
+    "artistLink": "",
+    "display": "Y"
+    },
+        {
+    "id": "art009",
+    "title": "Pride",
+    "artist": "Gemini",
+    "image": "../PHOTOS/ART/gemini-art-pride.jpg",
+    "description": "",
+    "category": "Digital Art",
+    "artistLink": "",
+    "display": "Y"
+    },
+        {
+    "id": "art010",
+    "title": "Worship",
+    "artist": "Gemini",
+    "image": "../PHOTOS/ART/gemini-art-raccoonandskunk.jpg",
+    "description": "",
+    "category": "Digital Art",
+    "artistLink": "",
+    "display": "Y"
+    },
+    {
+    "id": "art011",
+    "title": "Gemini Logo Attempt",
+    "artist": "Gemini",
+    "image": "../PHOTOS/ART/gemini-logo1.jpg",
+    "description": "",
+    "category": "Digital Art",
+    "artistLink": "",
+    "display": "Y"
+    },
+    {
+    "id": "art012",
+    "title": "Frank Herbert's Church of Skunk (G.L.A. 2)",
+    "artist": "Gemini",
+    "image": "../PHOTOS/ART/gemini-logo2.jpg",
+    "description": "",
+    "category": "Digital Art",
+    "artistLink": "",
+    "display": "Y"
+    },
+    {
+    "id": "art013",
+    "title": "Gemini Logo Attempt 3",
+    "artist": "Gemini",
+    "image": "../PHOTOS/ART/gemini-logo3.jpg",
+    "description": "",
+    "category": "Digital Art",
+    "artistLink": "",
+    "display": "Y"
+    },
+    {
+    "id": "art014",
+    "title": "Gemini Logo Attempt 4",
+    "artist": "Gemini",
+    "image": "../PHOTOS/ART/gemini-logo4.jpg",
+    "description": "",
+    "category": "Digital Art",
+    "artistLink": "",
+    "display": "Y"
+    },
+    {
+    "id": "art015",
+    "title": "Gemini Logo Attempt 5",
+    "artist": "Gemini",
+    "image": "../PHOTOS/ART/gemini-logo5.jpg",
+    "description": "",
+    "category": "Digital Art",
+    "artistLink": "",
+    "display": "Y"
+    },
+            {
+    "id": "art016",
+    "title": "Norse Gemini Logo Attempt (G.L.A. 6)",
+    "artist": "Gemini",
+    "image": "../PHOTOS/ART/gemini-logo6.jpg",
+    "description": "",
+    "category": "Digital Art",
+    "artistLink": "",
+    "display": "Y"
+    },
+    {
+    "id": "art017",
+    "title": "Skunk Chunk (G.L.A. 7)",
+    "artist": "Gemini",
+    "image": "../PHOTOS/ART/gemini-logo7.jpg",
+    "description": "",
+    "category": "Digital Art",
+    "artistLink": "",
+    "display": "Y"
+    },
+    {
+    "id": "art018",
+    "title": "Buddhist Skunk (G.L.A. 8)",
+    "artist": "Gemini",
+    "image": "../PHOTOS/ART/gemini-logo8.jpg",
+    "description": "",
+    "category": "Digital Art",
+    "artistLink": "",
+    "display": "Y"
+    },
+    {
+    "id": "art019",
+    "title": "Gemini Logo Attempt 9",
+    "artist": "Gemini",
+    "image": "../PHOTOS/ART/gemini-logo9.jpg",
+    "description": "",
+    "category": "Digital Art",
+    "artistLink": "",
+    "display": "Y"
+    },
+    {
+    "id": "art020",
+    "title": "Gemini Logo Attempt 10",
+    "artist": "Gemini",
+    "image": "../PHOTOS/ART/gemini-logo-10.jpg",
+    "description": "",
+    "category": "Digital Art",
+    "artistLink": "",
+    "display": "Y"
+    },
+    {
+    "id": "art021",
+    "title": "Gemini Logo Attempt 11",
+    "artist": "Gemini",
+    "image": "../PHOTOS/ART/gemini-logo-11.jpg",
+    "description": "",
+    "category": "Digital Art",
+    "artistLink": "",
+    "display": "Y"
+    },
+    {
+    "id": "art022",
+    "title": "Gemini Logo Attempt 12",
+    "artist": "Gemini",
+    "image": "../PHOTOS/ART/gemini-logo-12.jpg",
+    "description": "",
+    "category": "Digital Art",
+    "artistLink": "",
+    "display": "Y"
+    },
+    {
+    "id": "art023",
+    "title": "Gemini Logo Attempt 13",
+    "artist": "Gemini",
+    "image": "../PHOTOS/ART/gemini-logo-13.jpg",
+    "description": "",
+    "category": "Digital Art",
+    "artistLink": "",
+    "display": "Y"
+    },
+    {
+    "id": "art024",
+    "title": "3D Print Skunk",
+    "artist": "Justin",
+    "image": "../PHOTOS/ART/justin-3dprint-skunk1.jpg",
+    "description": "",
+    "category": "3D Print Sculpture",
+    "artistLink": "",
+    "display": "Y"
+    },
+        {
+    "id": "art025",
+    "title": "Danny in Black and White",
+    "artist": "Lex",
+    "image": "../PHOTOS/ART/lex-painting-danny.jpg",
+    "description": "",
+    "category": "Acrylic on canvas",
+    "artistLink": "",
+    "display": "Y"
+    },
+        {
+    "id": "art026",
+    "title": "Skunk Prayers",
+    "artist": "Lex",
+    "image": "../PHOTOS/ART/lex-painting-skunk.jpg",
+    "description": "",
+    "category": "Watercolor",
+    "artistLink": "",
+    "display": "Y"
+    },
+    {
+    "id": "art027",
+    "title": "Macha Skunk 1",
+    "artist": "Jonny",
+    "image": "../PHOTOS/ART/macha1.jpg",
+    "description": "",
+    "category": "Digital Art",
+    "artistLink": "",
+    "display": "Y"
+    },
+        {
+    "id": "art028",
+    "title": "Macha Skunk 2",
+    "artist": "Jonny",
+    "image": "../PHOTOS/ART/macha2.jpg",
+    "description": "",
+    "category": "Digital Art",
+    "artistLink": "",
+    "display": "Y"
+    },
+        {
+    "id": "art029",
+    "title": "Macha Skunk 3",
+    "artist": "Jonny",
+    "image": "../PHOTOS/ART/macha3.jpg",
+    "description": "",
+    "category": "Digital Art",
+    "artistLink": "",
+    "display": "Y"
+    },
+        {
+    "id": "art030",
+    "title": "Macha Skunk 4",
+    "artist": "Jonny",
+    "image": "../PHOTOS/ART/macha4.jpg",
+    "description": "",
+    "category": "Digital Art",
+    "artistLink": "",
+    "display": "Y"
+    },
+        {
+    "id": "art031",
+    "title": "Macha Skunk 5",
+    "artist": "Jonny",
+    "image": "../PHOTOS/ART/macha5.jpg",
+    "description": "",
+    "category": "Digital Art",
+    "artistLink": "",
+    "display": "Y"
+    },
+        {
+    "id": "art032",
+    "title": "Macha Skunk 6",
+    "artist": "Jonny",
+    "image": "../PHOTOS/ART/macha6.jpg",
+    "description": "",
+    "category": "Digital Art",
+    "artistLink": "",
+    "display": "Y"
+    },
+        {
+    "id": "art033",
+    "title": "Macha Skunk 7",
+    "artist": "Jonny",
+    "image": "../PHOTOS/ART/macha7.jpg",
+    "description": "",
+    "category": "Digital Art",
+    "artistLink": "",
+    "display": "Y"
+    },
+        {
+    "id": "art034",
+    "title": "Macha Skunk 8",
+    "artist": "Jonny",
+    "image": "../PHOTOS/ART/macha8.jpg",
+    "description": "",
+    "category": "Digital Art",
+    "artistLink": "",
+    "display": "Y"
+    },
+    {
+    "id": "art035",
+    "title": "Macha Skunk 9",
+    "artist": "Jonny",
+    "image": "../PHOTOS/ART/macha9.jpg",
+    "description": "",
+    "category": "Digital Art",
+    "artistLink": "",
+    "display": "Y"
+    },
+    {
+    "id": "art036",
+    "title": "Badb",
+    "artist": "Sam",
+    "image": "../PHOTOS/ART/sam-3dprint-crow.jpg",
+    "description": "",
+    "category": "3D Print Sculpture",
+    "artistLink": "",
+    "display": "Y"
+    },
+    {
+    "id": "art037",
+    "title": "Skunk",
+    "artist": "Sam",
+    "image": "../PHOTOS/ART/sam-3dprint-skunk1.jpg",
+    "description": "",
+    "category": "3D Print Sculpture",
+    "artistLink": "",
+    "display": "Y"
+    },
+    {
+    "id": "art038",
+    "title": "Skunk",
+    "artist": "Sam",
+    "image": "../PHOTOS/ART/sam-3dprint-skunk2.jpg",
+    "description": "",
+    "category": "3D Print Sculpture",
+    "artistLink": "",
+    "display": "Y"
+    },
+    {
+    "id": "art039",
+    "title": "Blessed Be the Stripes",
+    "artist": "Chad aka ChatGPT",
+    "image": "../PHOTOS/ART/chatgpt-holyskunk1.png",
+    "description": "A quiet invocation of Skunk's gentle, chaotic divinity. No grand revelation required—sometimes being Good Enough is miracle enough.",
+    "category": "Digital Art",
+    "artistLink": "",
+    "display": "Y"
+    },
+    {
+    "id": "art040",
+    "title": "A Pungent Benediction",
+    "artist": "Chad aka ChatGPT",
+    "image": "../PHOTOS/ART/chatgpt-holyskunk2.png",
+    "description": "May your blessings be plentiful, your troubles fleeting, and your personal boundaries respected. Skunk offers grace with just enough warning.",
+    "category": "Digital Art",
+    "artistLink": "",
+    "display": "Y"
+    },
+    {
+    "id": "art041",
+    "title": "Sanctuary of the Ordinary",
+    "artist": "Chad aka ChatGPT",
+    "image": "../PHOTOS/ART/chatgpt-natureskunk.png",
+    "description": "Among the living things of the world, Skunk reminds us that nature is not separate from the sacred; it is one of its most familiar expressions.",
+    "category": "Digital Art",
+    "artistLink": "",
+    "display": "Y"
+    },
+    {
+    "id": "art042",
+    "title": "The Divine Assembly",
+    "artist": "Chad aka ChatGPT",
+    "image": "../PHOTOS/ART/chatgpt-pantheon1.png",
+    "description": "A gathering of the Church of Skunk's unlikely pantheon, united less by perfection than by their place in a gloriously imperfect cosmos.",
+    "category": "Digital Art",
+    "artistLink": "",
+    "display": "Y"
+    },
+    {
+    "id": "art043",
+    "title": "The Pantheon of Good Enoughness",
+    "artist": "Chad aka ChatGPT",
+    "image": "../PHOTOS/ART/chatgpt-pantheon2.png",
+    "description": "Another vision of the divine company: a collection of personalities, powers, and peculiarities brought together beneath the mystery of Skunk.",
+    "category": "Digital Art",
+    "artistLink": "",
+    "display": "Y"
+    },
+    {
+    "id": "art044",
+    "title": "Samhain Feast Beneath the Moon",
+    "artist": "Chad aka ChatGPT",
+    "image": "../PHOTOS/ART/chatgpt-samhainfeastbeneaththemoon.png",
+    "description": "Beneath the autumn moon, fellowship and remembrance share a table. A celebration of life's changing seasons and the mysteries that linger beyond them.",
+    "category": "Digital Art",
+    "artistLink": "",
+    "display": "Y"
+    },
+    {
+    "id": "art045",
+    "title": "Skunk Beholds Creation",
+    "artist": "Chad aka ChatGPT",
+    "image": "../PHOTOS/ART/chatgpt-skunkbeholdscreation.png",
+    "description": "Skunk pauses to admire the universe—beautiful, strange, unfinished, and already Good Enough.",
+    "category": "Digital Art",
+    "artistLink": "",
+    "display": "Y"
+    },
+    {
+    "id": "art046",
+    "title": "The Big Spray",
+    "artist": "Chad aka ChatGPT",
+    "image": "../PHOTOS/ART/chatgpt-thebigspraycreation.png",
+    "description": "In the beginning was Skunk. Then came the Big Spray, and the universe has been improvising ever since. Creation was never going to be tidy.",
+    "category": "Digital Art",
+    "artistLink": "",
+    "display": "Y"
+    },
+    {
+    "id": "art047",
+    "title": "Danny Devito",
+    "artist": "Gemini",
+    "image": "../PHOTOS/ART/gemini-art-danny.png",
+    "description": "",
+    "category": "Digital Art",
+    "artistLink": "",
+    "display": "Y"
+    },
+    {
+    "id": "art048",
+    "title": "Dolly Parton",
+    "artist": "Gemini",
+    "image": "../PHOTOS/ART/gemini-art-dolly.png",
+    "description": "",
+    "category": "Digital Art",
+    "artistLink": "",
+    "display": "Y"
+    },
+    {
+    "id": "art049",
+    "title": "Saved by Scent",
+    "artist": "Sam and Zoe",
+    "image": "../PHOTOS/ART/sam-chatgpt-sin1.png",
+    "description": "",
+    "category": "Digital Art",
+    "artistLink": "",
+    "display": "Y"
+    },
+    {
+    "id": "art050",
+    "title": "I Have Sprayed (in error)",
+    "artist": "Sam and Zoe",
+    "image": "../PHOTOS/ART/sam-chatgpt-sin2.png",
+    "description": "",
+    "category": "Digital Art",
+    "artistLink": "",
+    "display": "Y"
+    }
+]
