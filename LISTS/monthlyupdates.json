@@ -1,4 +1,33 @@
 [ 
+        {
+        "date": "2026-11-01",
+        "title": "Behind the Scenes",
+        "tags": ["Council Update", "Book of Skunk"],
+        "content": [
+              "There's been a lot of activity recently in Church of Skunk! Here are some highlights:",
+              "1. The Church Council has been working tirelessly to create a comprehensive doctrine, which we are currently calling \"The Book of Skunk.\" The book contains divine revelations from Skunk, our institutional beliefs, and Church governance - plus a section dedicated entirely to altars for our currently recognized deities.",
+              "A first draft has been completed and is currently under review; we remain on schedule for getting the book finished and published before the end of the year. Click the link below to see the draft! We are accepting public comments until the end of November. Submit comments to churchofskunk@gmail.com.",
+              "2. Church of Skunk is now on Instagram! Click the link below to follow and receive updates. Followers interested in helping run the account should contact Lex at churchofskunk@gmail.com."
+        ],
+        "links":  [{
+            "url": "https://www.instagram.com/churchofskunk/",
+            "name": "Follow Skunk on Instagram" 
+            },
+            {
+            "url": "https://drive.google.com/file/d/1cJn3ewxVTNL9w9DkZCe3x6ykzTmNaTlh/view?usp=sharing",
+            "name": "Read the Book of Skunk draft" 
+            }
+        ],
+        "images": [{
+            "url": "../PHOTOS/NEWS/UPDATES/bookofskunk.png",
+            "name": "The Book of Skunk"
+            },
+            {
+            "url": "../PHOTOS/NEWS/UPDATES/instagram.png",
+            "name": "Church of Skunk on Instagram" 
+            }
+        ]
+    },
     {
         "date": "2026-10-01",
         "title": "This Month: Get Ready to Celebrate Samhain",
